@@ -13,10 +13,10 @@
 
 
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="/blog/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/blog/css/pygments.css">
-    <link rel="stylesheet" type="text/css" href="/blog/css/scribble.css">
-    <link rel="stylesheet" type="text/css" href="/blog/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/pygments.css">
+    <link rel="stylesheet" type="text/css" href="/css/scribble.css">
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
     <!-- Feeds -->
     <link rel="alternate" type="application/atom+xml"
           href="/blog/feeds/all.atom.xml" title="Atom Feed">
@@ -136,14 +136,32 @@ function foo()
 <p>Yields this:</p>
 
 <div class="brush: js">
- <pre><code>/**
- * Some JavaScript
- */
-function foo()
-{
-    if (counter &lt;= 10)
-        return;
-    // it works!</code></pre></div>
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="cm">/**</span>
+<span class="cm"> * Some JavaScript</span>
+<span class="cm"> */</span>
+<span class="kd">function</span> <span class="nx">foo</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">counter</span> <span class="o">&lt;=</span> <span class="mi">10</span><span class="p">)</span>
+        <span class="k">return</span><span class="p">;</span>
+    <span class="c1">// it works!</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>And this:</p>
 
@@ -159,12 +177,28 @@ function foo()
 <p>Yields this:</p>
 
 <div class="brush: racket">
- <pre><code>#lang racket
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3
+4
+5
+6</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre>#lang racket
 ;; Finds Racket sources in all subdirs
 (for ([path (in-directory)])
   (when (regexp-match? #rx"[.]rkt$" path)
     (printf "source file: ~a\n" path)))
-(symbol-&gt;string 'foo)</code></pre></div>
+(symbol-&gt;string &#39;foo)
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>Notice that, for Racket, symbols with unambiguous documentation (provided by one library, or provided by several where one is <code>racket</code> or <code>racket/base</code>) are links to that documentation.</p>
 
@@ -187,18 +221,52 @@ function foo()
 <p>And here in fenced code block, lang = <code>racket</code>:</p>
 
 <div class="brush: racket">
- <pre><code>(λ () #t)</code></pre></div>
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre>(λ () #t)
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>And here in fenced code block, lang = <code>scheme</code>:</p>
 
 <div class="brush: scheme">
- <pre><code>(λ () #t)</code></pre></div>
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="p">(</span><span class="err">λ</span> <span class="p">()</span> <span class="no">#t</span><span class="p">)</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>Here&rsquo;s a simple <code>for</code> macro, written in <a href="http://docs.racket-lang.org/reference/stx-patterns.html">Racket</a>:</p>
 
 <div class="brush: racket">
- <pre><code>(define-syntax-rule (for (x e1) e2)
-  (for-each (λ (x) e2) e1))</code></pre></div>
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre>(define-syntax-rule (for (x e1) e2)
+  (for-each (λ (x) e2) e1))
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>The end.</p>
 
