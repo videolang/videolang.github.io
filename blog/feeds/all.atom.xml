@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+ <title type="text">Video Blog: Video Blog</title>
+ <link rel="self" href="http://video.lang/blog/feeds/all.atom.xml" />
+ <link href="http://video.lang/blog/index.html" />
+ <id>urn:http-video-lang:-blog-index-html</id>
+ <updated>2017-07-01T22:11:41Z</updated>
+ <entry>
+  <title type="text">Hello Chroma Key</title>
+  <link rel="alternate" href="http://video.lang/blog/2017/07/01/hello-chroma-key?utm_source=all&amp;utm_medium=Atom" />
+  <id>urn:http-video-lang:-blog-2017-07-01-hello-chroma-key</id>
+  <published>2017-07-01T22:11:41Z</published>
+  <updated>2017-07-01T22:11:41Z</updated>
+  <author>
+   <name>The Video Language Team</name></author>
+  <content type="html">
+&lt;p&gt;Welcome to the Video Blog. This blog is for Video release announcements, status updates, tutorials, and anything relevant to Video and video editing in general.&lt;/p&gt;&lt;a href="http://video.lang/blog/2017/07/01/hello-chroma-key?utm_source=all&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry></feed>
