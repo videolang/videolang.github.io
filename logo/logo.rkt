@@ -22,6 +22,7 @@
          racket/path
          racket/gui/base
          racket/math
+         racket/set
          images/icons/style
          mrlib/switchable-button
          racket/list
@@ -43,6 +44,14 @@
   (define film-ratio (* body-height 2/3))
   (define width body-width)
   (define lens-dim 2/3)
+  (define font
+    (let ()
+      (define attempts (list "Linux Libertine Display"
+                             "Linux Libertine Display O"))
+      (define intersect (set-intersect (get-face-list) attempts))
+      (when (set-empty? intersect)
+        (error 'mk-logo "No fount ~s installed, currently installed: ~s" attempts (get-face-list)))
+      (set-first intersect)))
   (define camera-body
     (dc (λ (dc dx dy)
           (define old-brush (send dc get-brush))
@@ -108,16 +117,16 @@
   
   (define pre-paren-image
     (hc-append
-     (scale (text "(" "Helvetica" 1) (* 3/4 height))
-     (scale (text "(" "Helvetica" 1) (* 2/4 height))
-     (scale (text "(" "Helvetica" 1) (* 1/4 height))
-     (ghost (scale (text "(" "Helvetica" 1) (* 1/4 height)))))
+     (scale (text "(" font 1) (* 3/4 height))
+     (scale (text "(" font 1) (* 2/4 height))
+     (scale (text "(" font 1) (* 1/4 height))
+     (ghost (scale (text "(" font 1) (* 1/4 height)))))
   (define post-paren-image
     (hc-append
      (ghost (scale (text ")" "Helvetica" 1) (* 1/4 height)))
-     (scale (text ")" "Helvetica" 1) (* 1/4 height))
-     (scale (text ")" "Helvetica" 1) (* 2/4 height))
-     (scale (text ")" "Helvetica" 1) (* 3/4 height))))
+     (scale (text ")" font 1) (* 1/4 height))
+     (scale (text ")" font 1) (* 2/4 height))
+     (scale (text ")" font 1) (* 3/4 height))))
 
   (define lambda-logo
     (pict->bitmap

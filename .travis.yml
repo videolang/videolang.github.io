@@ -1,5 +1,7 @@
 language: generic
+
 sudo: false
+
 cache:
   directories:
   - "$HOME/.racket"
@@ -13,6 +15,7 @@ addons:
   apt:
     packages:
     - python-pygments
+    - fonts-linuxlibertine
 
 before_install:
 - export DISPLAY=:99.0
