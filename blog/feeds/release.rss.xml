@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <rss version="2.0">
  <channel>
-  <title>Video Blog: Posts tagged 'by Leif Andersen'</title>
-  <description>Video Blog: Posts tagged 'by Leif Andersen'</description>
-  <link>http://video.lang/blog/tags/by-Leif-Andersen.html</link>
+  <title>Video Blog: Posts tagged 'release'</title>
+  <description>Video Blog: Posts tagged 'release'</description>
+  <link>http://video.lang/blog/tags/release.html</link>
   <lastBuildDate>Tue, 11 Jul 2017 11:18:14 UT</lastBuildDate>
   <pubDate>Tue, 11 Jul 2017 11:18:14 UT</pubDate>
   <ttl>1800</ttl>
   <item>
    <title>Video v0.2 Alpha</title>
-   <link>http://video.lang/blog/2017/07/11/video-v0-2-alpha?utm_source=by-Leif-Andersen&amp;utm_medium=RSS</link>
+   <link>http://video.lang/blog/2017/07/11/video-v0-2-alpha?utm_source=release&amp;utm_medium=RSS</link>
    <guid isPermaLink="false">urn:http-video-lang:-blog-2017-07-11-video-v0-2-alpha</guid>
    <pubDate>Tue, 11 Jul 2017 11:18:14 UT</pubDate>
    <author>The Video Language Team</author>
@@ -38,12 +38,4 @@
 
 &lt;p&gt;You can &lt;a href="https://github.com/videolang/video/releases/tag/v0.2-alpha"&gt;download the release here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Please report any issues you find on &lt;a href="https://github.com/videolang/video/issues"&gt;the bug tracker&lt;/a&gt;. (If you don&amp;rsquo;t have a github account you can also use this &lt;a href="https://gitreports.com/issue/videolang/video"&gt;anonymous form&lt;/a&gt;.&lt;/p&gt;</description></item>
-  <item>
-   <title>Hello Chroma Key</title>
-   <link>http://video.lang/blog/2017/07/01/hello-chroma-key?utm_source=by-Leif-Andersen&amp;utm_medium=RSS</link>
-   <guid isPermaLink="false">urn:http-video-lang:-blog-2017-07-01-hello-chroma-key</guid>
-   <pubDate>Sat, 01 Jul 2017 22:11:41 UT</pubDate>
-   <author>The Video Language Team</author>
-   <description>
-&lt;p&gt;Welcome to the Video Blog. This blog is for Video release announcements, status updates, tutorials, and anything relevant to Video and video editing in general.&lt;/p&gt;&lt;a href="http://video.lang/blog/2017/07/01/hello-chroma-key?utm_source=by-Leif-Andersen&amp;amp;utm_medium=RSS"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</description></item></channel></rss>
+&lt;p&gt;Please report any issues you find on &lt;a href="https://github.com/videolang/video/issues"&gt;the bug tracker&lt;/a&gt;. (If you don&amp;rsquo;t have a github account you can also use this &lt;a href="https://gitreports.com/issue/videolang/video"&gt;anonymous form&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>

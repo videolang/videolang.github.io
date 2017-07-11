@@ -18,6 +18,40 @@
 <div class="jumbotron"><div class="container"><h1>Video Blog</h1></div></div>
 <div class="container"><div class="row"><div id="content" class="col-md-12"><article>
   <header>
+    <h2><a href='/blog/2017/07/11/video-v0-2-alpha'>Video v0.2 Alpha</a></h2>
+    <p class='date-and-tags'>
+<time datetime="2017-07-11" pubdate="true">2017-07-11</time> :: <span class="tags"><a href="/blog/tags/release.html">release</a>, <a href="/blog/tags/by-Leif-Andersen.html">by Leif Andersen</a></span></p>
+  </header>
+
+<p>This is an alpha version of Video v0.2. The main update here is dropping MLT as a dependency, and bundling FFmpeg for Windows and Mac builds. As such, Video can be used out of the box on now, without the need to hunt down the more obscure MLT library separately. Linux machines must still download the correct version of FFmpeg themselves. However, this is much easier to do.</p>
+
+<p>Specifically, FFmpeg 3.2 is recommended, but the following specific library versions are also usable:</p>
+
+<ul>
+ <li>libavcodec v57</li>
+ <li>libavformat v57</li>
+ <li>libavutil v55</li>
+ <li>libswscale v4</li>
+ <li>libswresample v2</li>
+ <li>libavfilter v6</li></ul>
+
+<p>Again, these are included for the mac/windows builds, and are all part of an FFmpeg 3.x installation.</p>
+
+<p>Some notes about why this is still alpha:</p>
+
+<ul>
+ <li>The video preview currently does not work. People needing access to this feature need to use v0.1.1.</li>
+ <li>Video has not been thoroughly tested</li></ul>
+
+<p>Once the first one has been addressed we can move to beta, and once both have been addressed we can move to rc.</p>
+
+<p>You can <a href="https://github.com/videolang/video/releases/tag/v0.2-alpha">download the release here</a>.</p>
+
+<p>Please report any issues you find on <a href="https://github.com/videolang/video/issues">the bug tracker</a>. (If you don&rsquo;t have a github account you can also use this <a href="https://gitreports.com/issue/videolang/video">anonymous form</a>.</p>
+
+</article>
+<article>
+  <header>
     <h2><a href='/blog/2017/07/01/hello-chroma-key'>Hello Chroma Key</a></h2>
     <p class='date-and-tags'>
 <time datetime="2017-07-01" pubdate="true">2017-07-01</time> :: <span class="tags"><a href="/blog/tags/announcements.html">announcements</a>, <a href="/blog/tags/by-Leif-Andersen.html">by Leif Andersen</a></span></p>
