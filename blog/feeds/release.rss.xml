@@ -4,9 +4,29 @@
   <title>Video Blog: Posts tagged 'release'</title>
   <description>Video Blog: Posts tagged 'release'</description>
   <link>http://video.lang/blog/tags/release.html</link>
-  <lastBuildDate>Tue, 11 Jul 2017 11:18:14 UT</lastBuildDate>
-  <pubDate>Tue, 11 Jul 2017 11:18:14 UT</pubDate>
+  <lastBuildDate>Mon, 28 Aug 2017 12:10:45 UT</lastBuildDate>
+  <pubDate>Mon, 28 Aug 2017 12:10:45 UT</pubDate>
   <ttl>1800</ttl>
+  <item>
+   <title>Video v0.2 beta</title>
+   <link>http://video.lang/blog/2017/08/28/video-v0-2-beta?utm_source=release&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:http-video-lang:-blog-2017-08-28-video-v0-2-beta</guid>
+   <pubDate>Mon, 28 Aug 2017 12:10:45 UT</pubDate>
+   <author>The Video Language Team</author>
+   <description>
+&lt;p&gt;Today we are announcing the first stable beta for Video. To install it, you can first install &lt;a href="https://racket-lang.org"&gt;Racket&lt;/a&gt;, and then run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;raco pkg install video-testing&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Alternatively, within DrRacket, go to &lt;code&gt;File -&amp;gt; Install Package&lt;/code&gt;, and type in &lt;code&gt;video-testing&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Either way, make sure you installed &lt;code&gt;video-testing&lt;/code&gt;, the &lt;code&gt;video&lt;/code&gt; package points to the latest stable build of Video, which is v0.1.1 at the time of this release.&lt;/p&gt;
+
+&lt;p&gt;The documentation for this version can be viewed &lt;a href="http://docs.racket-lang.org/video@video-testing/index.html"&gt;on the Racket documentation website&lt;/a&gt;. Unlike with the Alpha builds, the documentation has been updated to reflect the new version. As such:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Video v0.2-beta is now mature enough for programmers to reliably use it without segfaults.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The above sentence is significant because it means Video is now one of the most stable open source video production tools available.&lt;/p&gt;&lt;a href="http://video.lang/blog/2017/08/28/video-v0-2-beta?utm_source=release&amp;amp;utm_medium=RSS"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</description></item>
   <item>
    <title>Video v0.2 Alpha</title>
    <link>http://video.lang/blog/2017/07/11/video-v0-2-alpha?utm_source=release&amp;utm_medium=RSS</link>
