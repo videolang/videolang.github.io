@@ -23,13 +23,24 @@
 and <samp>testing</samp>. We highly recommend using <samp>testing</samp>, as the <samp>stable</samp> branch is old. (The <samp>testing</samp> branch will be merged into <samp>stable</samp> in the
 coming months.)</p>
 
-<h2>Installing Testing (Recommended)</h2>
+<h2>Install Testing (Recommended)</h2>
 
-<p>Installing Video is as simple as installing Racket, and
-downloading Video from within it.</p>
+<p>On Windows and macOS, you can download Video directly within Racket.</p>
 
+<div class="container"><center><h3>Step 1: Download Racket</h3></center>
+<a type="button" role="button" href="https://download.racket-lang.org/" class="btn btn-primary btn-lg btn-block">Download Racket</a>
+<center><h3>Step 2: Download Video</h3></center>
+<div class="container"><div class="panel-group" id="accordion"><div class="panel panel-primary"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Install in DrRacket</a></h4>
+<div id="collapse1" class="panel-collapse collapse in"><div class="panel-body"><img src="res/install-step1.png" alt="Installation Step 1" />
+<img src="res/install-step2.png" alt="Installation Step 2" /></div></div>
+<div class="panel-group" id="accordion"><div class="panel panel-primary"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Install with command line</a></h4></div></div>
+<div id="collapse2" class="panel-collapse collapse"><div class="panel-boy">If you have added Racket to your <kbd>$PATH</kbd>, you can
+install Video by typing in:
+<p><kbd>raco pkg install video</kbd></p></div></div></div></div></div></div>
 
-<h2>Installing Stable</h2>
+<br />
+
+<h2>Install Stable</h2>
 
 <p>We highly recommend installing Video's testing build. The latest build
 of the stable branch requires manual library installation.</p>
@@ -46,6 +57,5 @@ MLT; and finally you can use Racket to install Video.</p>
 <p>First ensure that <code>raco</code> is in your <code>$PATH</code>,
 and then run:</p>
 <p><kbd>raco pkg install video</kbd></p></div></div></div></p></div>
-
 <div class="footer-color"><div class="container"><footer class="footer float:right"><div class="copyright"><p style="float:left">Copyright © 2016-2017 Leif Andersen</p></div>
 <div class="pull-right"><img src="/logo/tiny.png" alt="Video Logo" height="25" width="25" /></div></footer></div></div><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script><script src="js/bootstrap.min.js"></script></body></html>
