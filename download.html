@@ -18,19 +18,34 @@
 <a class="navbar-brand" href="/index.html"><img src="/logo.png" alt="Video logo" height="50" width="75" /></a></div>
 <div id="navbar" class="navbar-collapse collapse"><ul class="nav navbar-nav pull-right"><li role="presentation"><a href="/index.html">Home</a></li><li role="presentation" class="active"><a href="#">Download</a></li><li role="presentation"><a href="/documentation.html">Documentation</a></li><li role="presentation"><a href="/community.html">Community</a></li><li role="presentation"><a href="/blog/index.html">Blog</a></li></ul></div></div></div></nav>
 <div class="jumbotron"><div class="container"><h1>Download</h1></div></div>
-<div class="container"><p>Currently Installing Video is a three step process.
+<div class="container">
+<p>There are currently two variants of Video, <samp>stable</samp>
+and <samp>testing</samp>. We highly recommend using <samp>testing</samp>, as the <samp>stable</samp> branch is old. (The <samp>testing</samp> branch will be merged into <samp>stable</samp> in the
+coming months.)</p>
+
+<h2>Installing Testing (Recommended)</h2>
+
+<p>Installing Video is as simple as installing Racket, and
+downloading Video from within it.</p>
+
+
+<h2>Installing Stable</h2>
+
+<p>We highly recommend installing Video's testing build. The latest build
+of the stable branch requires manual library installation.</p>
+
+<p><div class="row"><button data-toggle="collapse" data-target="#opt2" class="btn btn-secondary btn-lg btn-block">Show (Not Recommended)</button>
+<div id="opt2" class="collapse"><div class="container"><p>Currently Installing Video stable is a three step process.
 First you need to install Racket; then, you need to install
 MLT; and finally you can use Racket to install Video.</p>
-<center><h2>Step 1: Download Racket</h2></center>
+<center><h3>Step 1: Download Racket</h3></center>
 <a type="button" role="button" href="https://download.racket-lang.org/" class="btn btn-primary btn-lg btn-block">Download Racket</a>
-<center><h2>Step 2: Download MLT</h2></center>
+<center><h3>Step 2: Download MLT</h3></center>
 <a type="button" role="button" href="https://www.mltframework.org/" class="btn btn-primary btn-lg btn-block">Download MLT</a>
-<center><h2>Step 3: Download Video</h2></center>
-<div class="row"><button data-toggle="collapse" data-target="#step2a" class="btn btn-primary btn-lg btn-block">Option A: Install in DrRacket (Recommended)</button>
-<div id="step2a" class="collapse"><h3>Coming Soon... Use Option B for now.</h3></div></div>
-<div class="row"><button data-toggle="collapse" data-target="#step2b" class="btn btn-secondary btn-lg btn-block">Option B: Install in terminal (Advanced)</button>
-<div id="step2b" class="collapse"><div class="container"><p>First ensure that <code>raco</code> is in your <code>$PATH</code>,
+<center><h3>Step 3: Download Video</h3></center>
+<p>First ensure that <code>raco</code> is in your <code>$PATH</code>,
 and then run:</p>
-<kbd>raco pkg install video</kbd></div></div></div></div>
+<p><kbd>raco pkg install video</kbd></p></div></div></div></p></div>
+
 <div class="footer-color"><div class="container"><footer class="footer float:right"><div class="copyright"><p style="float:left">Copyright © 2016-2017 Leif Andersen</p></div>
 <div class="pull-right"><img src="/logo/tiny.png" alt="Video Logo" height="25" width="25" /></div></footer></div></div><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script><script src="js/bootstrap.min.js"></script></body></html>
