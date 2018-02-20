@@ -12,7 +12,7 @@
   <published>2017-08-28T12:10:45Z</published>
   <updated>2017-08-28T12:10:45Z</updated>
   <author>
-   <name>The Video Language Team</name></author>
+   <name>Leif Andersen</name></author>
   <content type="html">
 &lt;p&gt;Today we are announcing the first stable beta for Video. To install it, you can first install &lt;a href="https://racket-lang.org"&gt;Racket&lt;/a&gt;, and then run:&lt;/p&gt;
 
@@ -34,7 +34,7 @@
   <published>2017-07-11T11:18:14Z</published>
   <updated>2017-07-11T11:18:14Z</updated>
   <author>
-   <name>The Video Language Team</name></author>
+   <name>Leif Andersen</name></author>
   <content type="html">
 &lt;p&gt;&lt;strong&gt;Update2&lt;/strong&gt; A third alpha is released. This should be the last alpha build. The next release will be a beta. You can &lt;a href="https://github.com/videolang/video/releases/tag/v0.2-alpha.2"&gt;download the build here&lt;/a&gt;.&lt;/p&gt;
 

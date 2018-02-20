@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?> 
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
- <title type="text">Video Blog: Posts tagged 'by Leif Andersen'</title>
- <link rel="self" href="http://video.lang/blog/feeds/by-Leif-Andersen.atom.xml" />
- <link href="http://video.lang/blog/tags/by-Leif-Andersen.html" />
- <id>urn:http-video-lang:-blog-tags-by-Leif-Andersen-html</id>
- <updated>2017-08-28T12:10:45Z</updated>
- <entry>
-  <title type="text">Video v0.2 Beta</title>
-  <link rel="alternate" href="http://video.lang/blog/2017/08/28/video-v0-2-beta?utm_source=by-Leif-Andersen&amp;utm_medium=Atom" />
-  <id>urn:http-video-lang:-blog-2017-08-28-video-v0-2-beta</id>
-  <published>2017-08-28T12:10:45Z</published>
-  <updated>2017-08-28T12:10:45Z</updated>
-  <author>
-   <name>The Video Language Team</name></author>
-  <content type="html">
+<rss version="2.0">
+ <channel>
+  <title>Video Blog: Posts tagged 'Author: Leif Andersen'</title>
+  <description>Video Blog: Posts tagged 'Author: Leif Andersen'</description>
+  <link>http://video.lang/blog/tags/Author-Leif-Andersen.html</link>
+  <lastBuildDate>Mon, 28 Aug 2017 12:10:45 UT</lastBuildDate>
+  <pubDate>Mon, 28 Aug 2017 12:10:45 UT</pubDate>
+  <ttl>1800</ttl>
+  <item>
+   <title>Video v0.2 Beta</title>
+   <link>http://video.lang/blog/2017/08/28/video-v0-2-beta?utm_source=Author-Leif-Andersen&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:http-video-lang:-blog-2017-08-28-video-v0-2-beta</guid>
+   <pubDate>Mon, 28 Aug 2017 12:10:45 UT</pubDate>
+   <author>Leif Andersen</author>
+   <description>
 &lt;p&gt;Today we are announcing the first stable beta for Video. To install it, you can first install &lt;a href="https://racket-lang.org"&gt;Racket&lt;/a&gt;, and then run:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;raco pkg install video-testing&lt;/code&gt;&lt;/pre&gt;
@@ -26,16 +26,14 @@
 
 &lt;p&gt;&lt;strong&gt;Video v0.2-beta is now mature enough for programmers to reliably use it without segfaults.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;The above sentence is significant because it means Video is now one of the most stable open source video production tools available.&lt;/p&gt;&lt;a href="http://video.lang/blog/2017/08/28/video-v0-2-beta?utm_source=by-Leif-Andersen&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry>
- <entry>
-  <title type="text">Video v0.2 Alpha</title>
-  <link rel="alternate" href="http://video.lang/blog/2017/07/11/video-v0-2-alpha?utm_source=by-Leif-Andersen&amp;utm_medium=Atom" />
-  <id>urn:http-video-lang:-blog-2017-07-11-video-v0-2-alpha</id>
-  <published>2017-07-11T11:18:14Z</published>
-  <updated>2017-07-11T11:18:14Z</updated>
-  <author>
-   <name>The Video Language Team</name></author>
-  <content type="html">
+&lt;p&gt;The above sentence is significant because it means Video is now one of the most stable open source video production tools available.&lt;/p&gt;&lt;a href="http://video.lang/blog/2017/08/28/video-v0-2-beta?utm_source=Author-Leif-Andersen&amp;amp;utm_medium=RSS"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</description></item>
+  <item>
+   <title>Video v0.2 Alpha</title>
+   <link>http://video.lang/blog/2017/07/11/video-v0-2-alpha?utm_source=Author-Leif-Andersen&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:http-video-lang:-blog-2017-07-11-video-v0-2-alpha</guid>
+   <pubDate>Tue, 11 Jul 2017 11:18:14 UT</pubDate>
+   <author>Leif Andersen</author>
+   <description>
 &lt;p&gt;&lt;strong&gt;Update2&lt;/strong&gt; A third alpha is released. This should be the last alpha build. The next release will be a beta. You can &lt;a href="https://github.com/videolang/video/releases/tag/v0.2-alpha.2"&gt;download the build here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; A second alpha release has been created. This fixes some bugs preventing Video from working on Windows and Linux. Video has now been tested on all three platforms. You can &lt;a href="https://github.com/videolang/video/releases/tag/v0.2-alpha.1"&gt;download the build here&lt;/a&gt;.&lt;/p&gt;
@@ -64,14 +62,12 @@
 
 &lt;p&gt;You can &lt;a href="https://github.com/videolang/video/releases/tag/v0.2-alpha"&gt;download the release here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Please report any issues you find on &lt;a href="https://github.com/videolang/video/issues"&gt;the bug tracker&lt;/a&gt;. (If you don&amp;rsquo;t have a github account you can also use this &lt;a href="https://gitreports.com/issue/videolang/video"&gt;anonymous form&lt;/a&gt;.&lt;/p&gt;</content></entry>
- <entry>
-  <title type="text">Hello Chroma Key</title>
-  <link rel="alternate" href="http://video.lang/blog/2017/07/01/hello-chroma-key?utm_source=by-Leif-Andersen&amp;utm_medium=Atom" />
-  <id>urn:http-video-lang:-blog-2017-07-01-hello-chroma-key</id>
-  <published>2017-07-01T22:11:41Z</published>
-  <updated>2017-07-01T22:11:41Z</updated>
-  <author>
-   <name>The Video Language Team</name></author>
-  <content type="html">
-&lt;p&gt;Welcome to the Video Blog. This blog is for Video release announcements, status updates, tutorials, and anything relevant to Video and video editing in general.&lt;/p&gt;&lt;a href="http://video.lang/blog/2017/07/01/hello-chroma-key?utm_source=by-Leif-Andersen&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry></feed>
+&lt;p&gt;Please report any issues you find on &lt;a href="https://github.com/videolang/video/issues"&gt;the bug tracker&lt;/a&gt;. (If you don&amp;rsquo;t have a github account you can also use this &lt;a href="https://gitreports.com/issue/videolang/video"&gt;anonymous form&lt;/a&gt;.&lt;/p&gt;</description></item>
+  <item>
+   <title>Hello Chroma Key</title>
+   <link>http://video.lang/blog/2017/07/01/hello-chroma-key?utm_source=Author-Leif-Andersen&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:http-video-lang:-blog-2017-07-01-hello-chroma-key</guid>
+   <pubDate>Sat, 01 Jul 2017 22:11:41 UT</pubDate>
+   <author>Leif Andersen</author>
+   <description>
+&lt;p&gt;Welcome to the Video Blog. This blog is for Video release announcements, status updates, tutorials, and anything relevant to Video and video editing in general.&lt;/p&gt;&lt;a href="http://video.lang/blog/2017/07/01/hello-chroma-key?utm_source=Author-Leif-Andersen&amp;amp;utm_medium=RSS"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</description></item></channel></rss>

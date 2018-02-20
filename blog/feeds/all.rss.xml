@@ -12,7 +12,7 @@
    <link>http://video.lang/blog/2017/08/28/video-v0-2-beta?utm_source=all&amp;utm_medium=RSS</link>
    <guid isPermaLink="false">urn:http-video-lang:-blog-2017-08-28-video-v0-2-beta</guid>
    <pubDate>Mon, 28 Aug 2017 12:10:45 UT</pubDate>
-   <author>The Video Language Team</author>
+   <author>Leif Andersen</author>
    <description>
 &lt;p&gt;Today we are announcing the first stable beta for Video. To install it, you can first install &lt;a href="https://racket-lang.org"&gt;Racket&lt;/a&gt;, and then run:&lt;/p&gt;
 
@@ -32,7 +32,7 @@
    <link>http://video.lang/blog/2017/07/11/video-v0-2-alpha?utm_source=all&amp;utm_medium=RSS</link>
    <guid isPermaLink="false">urn:http-video-lang:-blog-2017-07-11-video-v0-2-alpha</guid>
    <pubDate>Tue, 11 Jul 2017 11:18:14 UT</pubDate>
-   <author>The Video Language Team</author>
+   <author>Leif Andersen</author>
    <description>
 &lt;p&gt;&lt;strong&gt;Update2&lt;/strong&gt; A third alpha is released. This should be the last alpha build. The next release will be a beta. You can &lt;a href="https://github.com/videolang/video/releases/tag/v0.2-alpha.2"&gt;download the build here&lt;/a&gt;.&lt;/p&gt;
 
@@ -68,6 +68,6 @@
    <link>http://video.lang/blog/2017/07/01/hello-chroma-key?utm_source=all&amp;utm_medium=RSS</link>
    <guid isPermaLink="false">urn:http-video-lang:-blog-2017-07-01-hello-chroma-key</guid>
    <pubDate>Sat, 01 Jul 2017 22:11:41 UT</pubDate>
-   <author>The Video Language Team</author>
+   <author>Leif Andersen</author>
    <description>
 &lt;p&gt;Welcome to the Video Blog. This blog is for Video release announcements, status updates, tutorials, and anything relevant to Video and video editing in general.&lt;/p&gt;&lt;a href="http://video.lang/blog/2017/07/01/hello-chroma-key?utm_source=all&amp;amp;utm_medium=RSS"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</description></item></channel></rss>
