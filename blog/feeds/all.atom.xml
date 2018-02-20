@@ -4,7 +4,19 @@
  <link rel="self" href="http://video.lang/blog/feeds/all.atom.xml" />
  <link href="http://video.lang/blog/index.html" />
  <id>urn:http-video-lang:-blog-index-html</id>
- <updated>2017-08-28T12:10:45Z</updated>
+ <updated>2018-02-20T11:10:00Z</updated>
+ <entry>
+  <title type="text">Video at RacketCon 2017</title>
+  <link rel="alternate" href="http://video.lang/blog/2018/02/20/video-at-racketcon-2017?utm_source=all&amp;utm_medium=Atom" />
+  <id>urn:http-video-lang:-blog-2018-02-20-video-at-racketcon-2017</id>
+  <published>2018-02-20T11:10:00Z</published>
+  <updated>2018-02-20T11:10:00Z</updated>
+  <author>
+   <name>Leif Andersen</name></author>
+  <content type="html">
+&lt;p&gt;I recently gave a talk about Video at &lt;a href="https://con.racket-lang.org/"&gt;RacketCon 2017&lt;/a&gt;. The Video goes over the basics of the language&amp;rsquo;s API and gives some incites on the tower of DSLs Video runs on. If you haven&amp;rsquo;t watched the Video yet you can find it below.&lt;/p&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/OZXslNVaCOQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"&gt;&lt;/iframe&gt;</content></entry>
  <entry>
   <title type="text">Video v0.2 Beta</title>
   <link rel="alternate" href="http://video.lang/blog/2017/08/28/video-v0-2-beta?utm_source=all&amp;utm_medium=Atom" />
