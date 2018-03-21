@@ -9,7 +9,7 @@
   <ttl>1800</ttl>
   <item>
    <title>Video at RacketCon 2017</title>
-   <link>http://video.lang/blog/2018/02/20/video-at-racketcon-2017?utm_source=Author-Leif-Andersen&amp;utm_medium=RSS</link>
+   <link>http://video.lang/blog/2018/02/20/video-at-racketcon-2017/?utm_source=Author-Leif-Andersen&amp;utm_medium=RSS</link>
    <guid isPermaLink="false">urn:http-video-lang:-blog-2018-02-20-video-at-racketcon-2017</guid>
    <pubDate>Tue, 20 Feb 2018 11:10:00 UT</pubDate>
    <author>Leif Andersen</author>
@@ -19,7 +19,7 @@
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/OZXslNVaCOQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"&gt;&lt;/iframe&gt;</description></item>
   <item>
    <title>Video v0.2 Beta</title>
-   <link>http://video.lang/blog/2017/08/28/video-v0-2-beta?utm_source=Author-Leif-Andersen&amp;utm_medium=RSS</link>
+   <link>http://video.lang/blog/2017/08/28/video-v0-2-beta/?utm_source=Author-Leif-Andersen&amp;utm_medium=RSS</link>
    <guid isPermaLink="false">urn:http-video-lang:-blog-2017-08-28-video-v0-2-beta</guid>
    <pubDate>Mon, 28 Aug 2017 12:10:45 UT</pubDate>
    <author>Leif Andersen</author>
@@ -36,10 +36,10 @@
 
 &lt;p&gt;&lt;strong&gt;Video v0.2-beta is now mature enough for programmers to reliably use it without segfaults.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;The above sentence is significant because it means Video is now one of the most stable open source video production tools available.&lt;/p&gt;&lt;a href="http://video.lang/blog/2017/08/28/video-v0-2-beta?utm_source=Author-Leif-Andersen&amp;amp;utm_medium=RSS"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</description></item>
+&lt;p&gt;The above sentence is significant because it means Video is now one of the most stable open source video production tools available.&lt;/p&gt;&lt;a href="http://video.lang/blog/2017/08/28/video-v0-2-beta/?utm_source=Author-Leif-Andersen&amp;amp;utm_medium=RSS"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</description></item>
   <item>
    <title>Video v0.2 Alpha</title>
-   <link>http://video.lang/blog/2017/07/11/video-v0-2-alpha?utm_source=Author-Leif-Andersen&amp;utm_medium=RSS</link>
+   <link>http://video.lang/blog/2017/07/11/video-v0-2-alpha/?utm_source=Author-Leif-Andersen&amp;utm_medium=RSS</link>
    <guid isPermaLink="false">urn:http-video-lang:-blog-2017-07-11-video-v0-2-alpha</guid>
    <pubDate>Tue, 11 Jul 2017 11:18:14 UT</pubDate>
    <author>Leif Andersen</author>
@@ -75,9 +75,9 @@
 &lt;p&gt;Please report any issues you find on &lt;a href="https://github.com/videolang/video/issues"&gt;the bug tracker&lt;/a&gt;. (If you don&amp;rsquo;t have a github account you can also use this &lt;a href="https://gitreports.com/issue/videolang/video"&gt;anonymous form&lt;/a&gt;.&lt;/p&gt;</description></item>
   <item>
    <title>Hello Chroma Key</title>
-   <link>http://video.lang/blog/2017/07/01/hello-chroma-key?utm_source=Author-Leif-Andersen&amp;utm_medium=RSS</link>
+   <link>http://video.lang/blog/2017/07/01/hello-chroma-key/?utm_source=Author-Leif-Andersen&amp;utm_medium=RSS</link>
    <guid isPermaLink="false">urn:http-video-lang:-blog-2017-07-01-hello-chroma-key</guid>
    <pubDate>Sat, 01 Jul 2017 22:11:41 UT</pubDate>
    <author>Leif Andersen</author>
    <description>
-&lt;p&gt;Welcome to the Video Blog. This blog is for Video release announcements, status updates, tutorials, and anything relevant to Video and video editing in general.&lt;/p&gt;&lt;a href="http://video.lang/blog/2017/07/01/hello-chroma-key?utm_source=Author-Leif-Andersen&amp;amp;utm_medium=RSS"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</description></item></channel></rss>
+&lt;p&gt;Welcome to the Video Blog. This blog is for Video release announcements, status updates, tutorials, and anything relevant to Video and video editing in general.&lt;/p&gt;&lt;a href="http://video.lang/blog/2017/07/01/hello-chroma-key/?utm_source=Author-Leif-Andersen&amp;amp;utm_medium=RSS"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</description></item></channel></rss>

@@ -7,7 +7,7 @@
  <updated>2018-02-20T11:10:00Z</updated>
  <entry>
   <title type="text">Video at RacketCon 2017</title>
-  <link rel="alternate" href="http://video.lang/blog/2018/02/20/video-at-racketcon-2017?utm_source=Author-Leif-Andersen&amp;utm_medium=Atom" />
+  <link rel="alternate" href="http://video.lang/blog/2018/02/20/video-at-racketcon-2017/?utm_source=Author-Leif-Andersen&amp;utm_medium=Atom" />
   <id>urn:http-video-lang:-blog-2018-02-20-video-at-racketcon-2017</id>
   <published>2018-02-20T11:10:00Z</published>
   <updated>2018-02-20T11:10:00Z</updated>
@@ -19,7 +19,7 @@
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/OZXslNVaCOQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"&gt;&lt;/iframe&gt;</content></entry>
  <entry>
   <title type="text">Video v0.2 Beta</title>
-  <link rel="alternate" href="http://video.lang/blog/2017/08/28/video-v0-2-beta?utm_source=Author-Leif-Andersen&amp;utm_medium=Atom" />
+  <link rel="alternate" href="http://video.lang/blog/2017/08/28/video-v0-2-beta/?utm_source=Author-Leif-Andersen&amp;utm_medium=Atom" />
   <id>urn:http-video-lang:-blog-2017-08-28-video-v0-2-beta</id>
   <published>2017-08-28T12:10:45Z</published>
   <updated>2017-08-28T12:10:45Z</updated>
@@ -38,10 +38,10 @@
 
 &lt;p&gt;&lt;strong&gt;Video v0.2-beta is now mature enough for programmers to reliably use it without segfaults.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;The above sentence is significant because it means Video is now one of the most stable open source video production tools available.&lt;/p&gt;&lt;a href="http://video.lang/blog/2017/08/28/video-v0-2-beta?utm_source=Author-Leif-Andersen&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry>
+&lt;p&gt;The above sentence is significant because it means Video is now one of the most stable open source video production tools available.&lt;/p&gt;&lt;a href="http://video.lang/blog/2017/08/28/video-v0-2-beta/?utm_source=Author-Leif-Andersen&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry>
  <entry>
   <title type="text">Video v0.2 Alpha</title>
-  <link rel="alternate" href="http://video.lang/blog/2017/07/11/video-v0-2-alpha?utm_source=Author-Leif-Andersen&amp;utm_medium=Atom" />
+  <link rel="alternate" href="http://video.lang/blog/2017/07/11/video-v0-2-alpha/?utm_source=Author-Leif-Andersen&amp;utm_medium=Atom" />
   <id>urn:http-video-lang:-blog-2017-07-11-video-v0-2-alpha</id>
   <published>2017-07-11T11:18:14Z</published>
   <updated>2017-07-11T11:18:14Z</updated>
@@ -79,11 +79,11 @@
 &lt;p&gt;Please report any issues you find on &lt;a href="https://github.com/videolang/video/issues"&gt;the bug tracker&lt;/a&gt;. (If you don&amp;rsquo;t have a github account you can also use this &lt;a href="https://gitreports.com/issue/videolang/video"&gt;anonymous form&lt;/a&gt;.&lt;/p&gt;</content></entry>
  <entry>
   <title type="text">Hello Chroma Key</title>
-  <link rel="alternate" href="http://video.lang/blog/2017/07/01/hello-chroma-key?utm_source=Author-Leif-Andersen&amp;utm_medium=Atom" />
+  <link rel="alternate" href="http://video.lang/blog/2017/07/01/hello-chroma-key/?utm_source=Author-Leif-Andersen&amp;utm_medium=Atom" />
   <id>urn:http-video-lang:-blog-2017-07-01-hello-chroma-key</id>
   <published>2017-07-01T22:11:41Z</published>
   <updated>2017-07-01T22:11:41Z</updated>
   <author>
    <name>Leif Andersen</name></author>
   <content type="html">
-&lt;p&gt;Welcome to the Video Blog. This blog is for Video release announcements, status updates, tutorials, and anything relevant to Video and video editing in general.&lt;/p&gt;&lt;a href="http://video.lang/blog/2017/07/01/hello-chroma-key?utm_source=Author-Leif-Andersen&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry></feed>
+&lt;p&gt;Welcome to the Video Blog. This blog is for Video release announcements, status updates, tutorials, and anything relevant to Video and video editing in general.&lt;/p&gt;&lt;a href="http://video.lang/blog/2017/07/01/hello-chroma-key/?utm_source=Author-Leif-Andersen&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry></feed>
