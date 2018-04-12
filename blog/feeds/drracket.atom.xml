@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+ <title type="text">Video Blog: Posts tagged 'drracket'</title>
+ <link rel="self" href="http://video.lang/blog/feeds/drracket.atom.xml" />
+ <link href="http://video.lang/blog/tags/drracket.html" />
+ <id>urn:http-video-lang:-blog-tags-drracket-html</id>
+ <updated>2018-03-21T12:52:03Z</updated>
+ <entry>
+  <title type="text">Making an IDE Plugin for DrRacket</title>
+  <link rel="alternate" href="http://video.lang/blog/2018/03/21/making-an-ide-plugin-for-drracket/?utm_source=drracket&amp;utm_medium=Atom" />
+  <id>urn:http-video-lang:-blog-2018-03-21-making-an-ide-plugin-for-drracket</id>
+  <published>2018-03-21T12:52:03Z</published>
+  <updated>2018-03-21T12:52:03Z</updated>
+  <author>
+   <name>Leif Andersen</name></author>
+  <content type="html">
+&lt;p&gt;I recently had several students ask me to show them how to make DrRacket plugins for their new language. It is easy to do, but I noticed that there aren any existing guides on how to do it. There is &lt;a href="https://docs.racket-lang.org/tools/index.html"&gt;the plugin documentation&lt;/a&gt;, which is a good reference and has some good examples. Unfortunately, it lacks a good step by step tutorial on how to make new IDE plugins. This post is that tutorial.&lt;/p&gt;
+
+&lt;p&gt;DrRacket plugins fall into one of two main categories:&lt;/p&gt;
+
+&lt;ol&gt;
+ &lt;li&gt;Language-Specific Plugins&lt;/li&gt;
+ &lt;li&gt;Global Plugins&lt;/li&gt;&lt;/ol&gt;
+
+&lt;p&gt;The former only enables the plugin when the user is editing a file in that plugin&amp;rsquo;s associated language. The latter, however, is for plugins that should always be enabled, such as &lt;a href="https://github.com/takikawa/drracket-vim-tool"&gt;DrRacket&amp;rsquo;s Vim Mode&lt;/a&gt;. This tutorial covers both plugin styles.&lt;/p&gt;&lt;a href="http://video.lang/blog/2018/03/21/making-an-ide-plugin-for-drracket/?utm_source=drracket&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry></feed>
