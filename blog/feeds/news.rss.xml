@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<rss version="2.0">
+ <channel>
+  <title>Video Blog: Posts tagged 'news'</title>
+  <description>Video Blog: Posts tagged 'news'</description>
+  <link>http://video.lang/blog/tags/news.html</link>
+  <lastBuildDate>Tue, 17 Apr 2018 08:01:51 UT</lastBuildDate>
+  <pubDate>Tue, 17 Apr 2018 08:01:51 UT</pubDate>
+  <ttl>1800</ttl>
+  <item>
+   <title>Video at BOB 2018</title>
+   <link>http://video.lang/blog/2018/04/17/video-at-bob-2018/?utm_source=news&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:http-video-lang:-blog-2018-04-17-video-at-bob-2018</guid>
+   <pubDate>Tue, 17 Apr 2018 08:01:51 UT</pubDate>
+   <author>The Video Language Team</author>
+   <description>
+&lt;p&gt;Video was the topic of &lt;a href="http://bobkonf.de/2018/en/"&gt;Bob Konferenz&amp;rsquo;s 2018 keynote&lt;/a&gt;. You can find a recording of the on &lt;a href="http://bobkonf.de/2018/andersen.html"&gt;the conference page&lt;/a&gt;, or below. The talks begins with the same introduction as the one I gave at RacketCon 2017, but goes into more detail on the tower of languages that Video is made of.&lt;/p&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/C_aVkKZxj3o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"&gt;&lt;/iframe&gt;</description></item>
+  <item>
+   <title>Video at RacketCon 2017</title>
+   <link>http://video.lang/blog/2018/02/20/video-at-racketcon-2017/?utm_source=news&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:http-video-lang:-blog-2018-02-20-video-at-racketcon-2017</guid>
+   <pubDate>Tue, 20 Feb 2018 11:10:00 UT</pubDate>
+   <author>Leif Andersen</author>
+   <description>
+&lt;p&gt;I recently gave a talk about Video at &lt;a href="https://con.racket-lang.org/"&gt;RacketCon 2017&lt;/a&gt;. The Video goes over the basics of the language&amp;rsquo;s API and gives some incites on the tower of DSLs Video runs on. If you haven&amp;rsquo;t watched the Video yet you can find it below.&lt;/p&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OZXslNVaCOQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"&gt;&lt;/iframe&gt;</description></item></channel></rss>
