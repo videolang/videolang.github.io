@@ -1,6 +1,0 @@
-http://video.lang/blog/2018/02/20/video-at-racketcon-2017/
-http://video.lang/blog/2017/07/11/video-v0-2-alpha/
-http://video.lang/blog/2018/03/21/making-an-ide-plugin-for-drracket/
-http://video.lang/blog/2017/08/28/video-v0-2-beta/
-http://video.lang/blog/2017/07/01/hello-chroma-key/
-http://video.lang/blog/About.html
