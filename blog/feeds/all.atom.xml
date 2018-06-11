@@ -4,7 +4,33 @@
  <link rel="self" href="http://video.lang/blog/feeds/all.atom.xml" />
  <link href="http://video.lang/blog/index.html" />
  <id>urn:http-video-lang:-blog-index-html</id>
- <updated>2018-04-17T08:01:51Z</updated>
+ <updated>2018-06-10T21:49:43Z</updated>
+ <entry>
+  <title type="text">Video v0.2 Releace Candidate</title>
+  <link rel="alternate" href="http://video.lang/blog/2018/06/10/video-v0-2-releace-candidate/?utm_source=all&amp;utm_medium=Atom" />
+  <id>urn:http-video-lang:-blog-2018-06-10-video-v0-2-releace-candidate</id>
+  <published>2018-06-10T21:49:43Z</published>
+  <updated>2018-06-10T21:49:43Z</updated>
+  <author>
+   <name>The Video Language Team</name></author>
+  <content type="html">
+&lt;p&gt;The first release candidate for Video v0.2 has been released! You can install it from the command line with:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;raco pkg install video-testing&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As before, the &lt;code&gt;video&lt;/code&gt; Racket package points to the latest stable version (v0.1 when writing this post), so use &lt;code&gt;video-testing&lt;/code&gt; to download the RC.&lt;/p&gt;
+
+&lt;p&gt;You can report any bugs you find here: https://github.com/videolang/video/issues&lt;/p&gt;
+
+&lt;p&gt;Here is a list of the major changes from the last beta:&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Update Video to use a version of libvid that does not segfault.&lt;/li&gt;
+ &lt;li&gt;More precise dependencies in Video&amp;rsquo;s info file.&lt;/li&gt;
+ &lt;li&gt;If FF_LOG=stdout, then do no redirection of ffmpeg&amp;rsquo;s logging.&lt;/li&gt;
+ &lt;li&gt;More complete render parameterization.&lt;/li&gt;
+ &lt;li&gt;Cleaner error messages.&lt;/li&gt;
+ &lt;li&gt;Fixed bug preventing Video from rendering audio-only files.&lt;/li&gt;&lt;/ul&gt;</content></entry>
  <entry>
   <title type="text">Video at BOB 2018</title>
   <link rel="alternate" href="http://video.lang/blog/2018/04/17/video-at-bob-2018/?utm_source=all&amp;utm_medium=Atom" />

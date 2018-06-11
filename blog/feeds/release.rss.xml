@@ -4,9 +4,33 @@
   <title>Video Blog: Posts tagged 'release'</title>
   <description>Video Blog: Posts tagged 'release'</description>
   <link>http://video.lang/blog/tags/release.html</link>
-  <lastBuildDate>Mon, 28 Aug 2017 12:10:45 UT</lastBuildDate>
-  <pubDate>Mon, 28 Aug 2017 12:10:45 UT</pubDate>
+  <lastBuildDate>Sun, 10 Jun 2018 21:49:43 UT</lastBuildDate>
+  <pubDate>Sun, 10 Jun 2018 21:49:43 UT</pubDate>
   <ttl>1800</ttl>
+  <item>
+   <title>Video v0.2 Releace Candidate</title>
+   <link>http://video.lang/blog/2018/06/10/video-v0-2-releace-candidate/?utm_source=release&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:http-video-lang:-blog-2018-06-10-video-v0-2-releace-candidate</guid>
+   <pubDate>Sun, 10 Jun 2018 21:49:43 UT</pubDate>
+   <author>The Video Language Team</author>
+   <description>
+&lt;p&gt;The first release candidate for Video v0.2 has been released! You can install it from the command line with:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;raco pkg install video-testing&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As before, the &lt;code&gt;video&lt;/code&gt; Racket package points to the latest stable version (v0.1 when writing this post), so use &lt;code&gt;video-testing&lt;/code&gt; to download the RC.&lt;/p&gt;
+
+&lt;p&gt;You can report any bugs you find here: https://github.com/videolang/video/issues&lt;/p&gt;
+
+&lt;p&gt;Here is a list of the major changes from the last beta:&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Update Video to use a version of libvid that does not segfault.&lt;/li&gt;
+ &lt;li&gt;More precise dependencies in Video&amp;rsquo;s info file.&lt;/li&gt;
+ &lt;li&gt;If FF_LOG=stdout, then do no redirection of ffmpeg&amp;rsquo;s logging.&lt;/li&gt;
+ &lt;li&gt;More complete render parameterization.&lt;/li&gt;
+ &lt;li&gt;Cleaner error messages.&lt;/li&gt;
+ &lt;li&gt;Fixed bug preventing Video from rendering audio-only files.&lt;/li&gt;&lt;/ul&gt;</description></item>
   <item>
    <title>Video v0.2 Beta</title>
    <link>http://video.lang/blog/2017/08/28/video-v0-2-beta/?utm_source=release&amp;utm_medium=RSS</link>

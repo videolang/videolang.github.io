@@ -31,6 +31,33 @@ _paq.push(['enableLinkTracking']);
 <div class="jumbotron"><div class="container"><h1>Video Blog</h1></div></div>
 <div class="container"><div class="row"><div id="content" class="col-md-12"><article>
   <header>
+    <h2><a href='/blog/2018/06/10/video-v0-2-releace-candidate/'>Video v0.2 Releace Candidate</a></h2>
+    <p class='date-and-tags'>
+<time datetime="2018-06-10" pubdate="true">2018-06-10</time> :: <span class="tags"><a href="/blog/tags/release.html">release</a></span></p>
+    <p class='authors'>By: <span class="authors">The Video Language Team</span></p>
+  </header>
+
+<p>The first release candidate for Video v0.2 has been released! You can install it from the command line with:</p>
+
+<pre><code>raco pkg install video-testing</code></pre>
+
+<p>As before, the <code>video</code> Racket package points to the latest stable version (v0.1 when writing this post), so use <code>video-testing</code> to download the RC.</p>
+
+<p>You can report any bugs you find here: https://github.com/videolang/video/issues</p>
+
+<p>Here is a list of the major changes from the last beta:</p>
+
+<ul>
+ <li>Update Video to use a version of libvid that does not segfault.</li>
+ <li>More precise dependencies in Video&rsquo;s info file.</li>
+ <li>If FF_LOG=stdout, then do no redirection of ffmpeg&rsquo;s logging.</li>
+ <li>More complete render parameterization.</li>
+ <li>Cleaner error messages.</li>
+ <li>Fixed bug preventing Video from rendering audio-only files.</li></ul>
+
+</article>
+<article>
+  <header>
     <h2><a href='/blog/2018/04/17/video-at-bob-2018/'>Video at BOB 2018</a></h2>
     <p class='date-and-tags'>
 <time datetime="2018-04-17" pubdate="true">2018-04-17</time> :: <span class="tags"><a href="/blog/tags/news.html">news</a></span></p>
