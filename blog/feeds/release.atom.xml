@@ -14,6 +14,8 @@
   <author>
    <name>The Video Language Team</name></author>
   <content type="html">
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; We have released a second release candidate. This fixes several bugs users have posted on the issue tracker.&lt;/p&gt;
+
 &lt;p&gt;The first release candidate for Video v0.2 has been released! You can install it from the command line with:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;raco pkg install video-testing&lt;/code&gt;&lt;/pre&gt;
@@ -30,7 +32,11 @@
  &lt;li&gt;If FF_LOG=stdout, then do no redirection of ffmpeg&amp;rsquo;s logging.&lt;/li&gt;
  &lt;li&gt;More complete render parameterization.&lt;/li&gt;
  &lt;li&gt;Cleaner error messages.&lt;/li&gt;
- &lt;li&gt;Fixed bug preventing Video from rendering audio-only files.&lt;/li&gt;&lt;/ul&gt;</content></entry>
+ &lt;li&gt;Fixed bug preventing Video from rendering audio-only files.&lt;/li&gt;
+ &lt;li&gt;Pause feature no longer additionally stops the video.&lt;/li&gt;
+ &lt;li&gt;Improved audio/video syncing in live preview.&lt;/li&gt;
+ &lt;li&gt;Fixed bugs in front half of Video compiler.&lt;/li&gt;
+ &lt;li&gt;Made &amp;lsquo;canvas&amp;rsquo; an optional parameter&lt;/li&gt;&lt;/ul&gt;</content></entry>
  <entry>
   <title type="text">Video v0.2 Beta</title>
   <link rel="alternate" href="http://video.lang/blog/2017/08/28/video-v0-2-beta/?utm_source=release&amp;utm_medium=Atom" />
