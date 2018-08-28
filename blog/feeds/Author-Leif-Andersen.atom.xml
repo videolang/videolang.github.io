@@ -4,7 +4,51 @@
  <link rel="self" href="http://video.lang/blog/feeds/Author-Leif-Andersen.atom.xml" />
  <link href="http://video.lang/blog/tags/Author-Leif-Andersen.html" />
  <id>urn:http-video-lang:-blog-tags-Author-Leif-Andersen-html</id>
- <updated>2018-03-21T12:52:03Z</updated>
+ <updated>2018-06-10T21:49:43Z</updated>
+ <entry>
+  <title type="text">Video v0.2 Releace Candidate</title>
+  <link rel="alternate" href="http://video.lang/blog/2018/06/10/video-v0-2-releace-candidate/?utm_source=Author-Leif-Andersen&amp;utm_medium=Atom" />
+  <id>urn:http-video-lang:-blog-2018-06-10-video-v0-2-releace-candidate</id>
+  <published>2018-06-10T21:49:43Z</published>
+  <updated>2018-06-10T21:49:43Z</updated>
+  <author>
+   <name>Leif Andersen</name></author>
+  <content type="html">
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; We have released a second release candidate. This fixes several bugs users have posted on the issue tracker.&lt;/p&gt;
+
+&lt;p&gt;The first release candidate for Video v0.2 has been released! You can install it from the command line with:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;raco pkg install video-testing&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As before, the &lt;code&gt;video&lt;/code&gt; Racket package points to the latest stable version (v0.1 when writing this post), so use &lt;code&gt;video-testing&lt;/code&gt; to download the RC.&lt;/p&gt;
+
+&lt;p&gt;You can report any bugs you find here: https://github.com/videolang/video/issues&lt;/p&gt;
+
+&lt;p&gt;Here is a list of the major changes from the last beta:&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Update Video to use a version of libvid that does not segfault.&lt;/li&gt;
+ &lt;li&gt;More precise dependencies in Video&amp;rsquo;s info file.&lt;/li&gt;
+ &lt;li&gt;If FF_LOG=stdout, then do no redirection of ffmpeg&amp;rsquo;s logging.&lt;/li&gt;
+ &lt;li&gt;More complete render parameterization.&lt;/li&gt;
+ &lt;li&gt;Cleaner error messages.&lt;/li&gt;
+ &lt;li&gt;Fixed bug preventing Video from rendering audio-only files.&lt;/li&gt;
+ &lt;li&gt;Pause feature no longer additionally stops the video.&lt;/li&gt;
+ &lt;li&gt;Improved audio/video syncing in live preview.&lt;/li&gt;
+ &lt;li&gt;Fixed bugs in front half of Video compiler.&lt;/li&gt;
+ &lt;li&gt;Made &amp;lsquo;canvas&amp;rsquo; an optional parameter&lt;/li&gt;&lt;/ul&gt;</content></entry>
+ <entry>
+  <title type="text">Video at BOB 2018</title>
+  <link rel="alternate" href="http://video.lang/blog/2018/04/17/video-at-bob-2018/?utm_source=Author-Leif-Andersen&amp;utm_medium=Atom" />
+  <id>urn:http-video-lang:-blog-2018-04-17-video-at-bob-2018</id>
+  <published>2018-04-17T08:01:51Z</published>
+  <updated>2018-04-17T08:01:51Z</updated>
+  <author>
+   <name>Leif Andersen</name></author>
+  <content type="html">
+&lt;p&gt;Video was the topic of &lt;a href="http://bobkonf.de/2018/en/"&gt;Bob Konferenz&amp;rsquo;s 2018 keynote&lt;/a&gt;. You can find a recording of the on &lt;a href="http://bobkonf.de/2018/andersen.html"&gt;the conference page&lt;/a&gt;, or below. The talks begins with the same introduction as the one I gave at RacketCon 2017, but goes into more detail on the tower of languages that Video is made of.&lt;/p&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/C_aVkKZxj3o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"&gt;&lt;/iframe&gt;</content></entry>
  <entry>
   <title type="text">Making an IDE Plugin for DrRacket</title>
   <link rel="alternate" href="http://video.lang/blog/2018/03/21/making-an-ide-plugin-for-drracket/?utm_source=Author-Leif-Andersen&amp;utm_medium=Atom" />
