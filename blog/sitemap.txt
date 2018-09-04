@@ -1,3 +1,4 @@
+http://video.lang/blog/2018/09/04/video-v0-2-released/
 http://video.lang/blog/2018/04/17/video-at-bob-2018/
 http://video.lang/blog/2017/08/28/video-v0-2-beta/
 http://video.lang/blog/2018/03/21/making-an-ide-plugin-for-drracket/

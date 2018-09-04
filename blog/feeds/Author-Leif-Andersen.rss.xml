@@ -4,9 +4,51 @@
   <title>Video Blog: Posts tagged 'Author: Leif Andersen'</title>
   <description>Video Blog: Posts tagged 'Author: Leif Andersen'</description>
   <link>http://video.lang/blog/tags/Author-Leif-Andersen.html</link>
-  <lastBuildDate>Sun, 10 Jun 2018 21:49:43 UT</lastBuildDate>
-  <pubDate>Sun, 10 Jun 2018 21:49:43 UT</pubDate>
+  <lastBuildDate>Tue, 04 Sep 2018 13:16:35 UT</lastBuildDate>
+  <pubDate>Tue, 04 Sep 2018 13:16:35 UT</pubDate>
   <ttl>1800</ttl>
+  <item>
+   <title>Video v0.2 Released</title>
+   <link>http://video.lang/blog/2018/09/04/video-v0-2-released/?utm_source=Author-Leif-Andersen&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:http-video-lang:-blog-2018-09-04-video-v0-2-released</guid>
+   <pubDate>Tue, 04 Sep 2018 13:16:35 UT</pubDate>
+   <author>Leif Andersen</author>
+   <description>
+&lt;p&gt;We just launched Video v0.2. This release marks the first stable version of Video for since v0.1.1 over a year ago. This release uses FFmpeg as a backend directly, rather than going through MLT. As such, Video is significantly more stable. Additionally, Windows and macOS users don&amp;rsquo;t need to worry about installing any more third party libraries, as Video comes bundled with the versions of FFmpeg required to run.&lt;sup&gt;1&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;You can download the latest version of Video using the Racket archives, by running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;raco pkg install video&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or installing it in DrRacket. Alternatively, you can download a tarball &lt;a href="https://github.com/videolang/video/releases/tag/v0.2"&gt;on Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The following is a list of features since the last release candidate for Video. See previous blog posts or the &lt;a href="https://github.com/videolang/video/blob/master/LOG"&gt;LOG file&lt;/a&gt; for a full list.&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Complete rewrite of compiler (first two passes).&lt;/li&gt;
+ &lt;li&gt;New compiler creates significantly more stable video programs.&lt;/li&gt;
+ &lt;li&gt;Can now properly decode wav files&lt;/li&gt;
+ &lt;li&gt;Remove explicit #:transitions/#:merges keywrods from playlists/filters.&lt;/li&gt;
+ &lt;li&gt;Fixed bug preventing video from being compiled on systems without ffmpeg.&lt;/li&gt;
+ &lt;li&gt;(Still requires ffmpeg to run.)&lt;/li&gt;
+ &lt;li&gt;Improve video player stability.&lt;/li&gt;
+ &lt;li&gt;Seek bar and counter much more reliable.&lt;/li&gt;
+ &lt;li&gt;Disable some unstable features, to be enabled for the next release.&lt;/li&gt;
+ &lt;li&gt;Minimum required version of Racket bumped to 7.0&lt;/li&gt;
+ &lt;li&gt;Add a &amp;mdash;prove flag to raco video to get information about media file.&lt;/li&gt;
+ &lt;li&gt;When using the video player server, sound stops when the server is out of scope.&lt;/li&gt;
+ &lt;li&gt;The video-player-server% object is now considerably easier to construct.&lt;/li&gt;
+ &lt;li&gt;Add #:start/#:end/#:length as special keywords for clip function.&lt;/li&gt;
+ &lt;li&gt;Improve pause responsiveness&lt;/li&gt;
+ &lt;li&gt;Add &lt;code&gt;-m&lt;/code&gt; flag to play media files without a video program&lt;/li&gt;
+ &lt;li&gt;Fix bug where audio wouldn&amp;rsquo;t play on windows&lt;/li&gt;
+ &lt;li&gt;Pause feature no longer additionally stops the video.&lt;/li&gt;
+ &lt;li&gt;Improved audio/video syncing in live preview.&lt;/li&gt;
+ &lt;li&gt;Fixed bugs in front half of Video compiler.&lt;/li&gt;
+ &lt;li&gt;Made &amp;lsquo;canvas&amp;rsquo; an optional parameter&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;
+ &lt;sub&gt;&lt;sup&gt;1&lt;/sup&gt;Linux users will still need to install FFmpeg themselves. Video will work best with FFmpeg 3.x, but may also work with 2.7+ with mixed results.&lt;/sub&gt;&lt;/p&gt;</description></item>
   <item>
    <title>Video v0.2 Releace Candidate</title>
    <link>http://video.lang/blog/2018/06/10/video-v0-2-releace-candidate/?utm_source=Author-Leif-Andersen&amp;utm_medium=RSS</link>

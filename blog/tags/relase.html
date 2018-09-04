@@ -20,8 +20,8 @@ _paq.push(['enableLinkTracking']);
   var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
   g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
 })();</script>
-<title>Video Language - Video v0.2 Releace Candidate</title>
-<link rel="canonical" href="http://video.lang/blog/2018/06/10/video-v0-2-releace-candidate/" /><link rel="alternate" type="application/atom+xml" href="/blog/feeds/all.atom.xml" title="Atom Feed" /><link rel="alternate" type="application/rss+xml" href="/blog/feeds/all.rss.xml" title="RSS Feed" /><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><script src="/js/comments.js"></script></head>
+<title>Video Language - Posts tagged 'relase'</title>
+<link rel="canonical" href="http://video.lang/blog/tags/relase.html" /><link rel="alternate" type="application/atom+xml" href="/blog/feeds/relase.atom.xml" title="Atom Feed" /><link rel="alternate" type="application/rss+xml" href="/blog/feeds/relase.rss.xml" title="RSS Feed" /><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><script src="/js/comments.js"></script></head>
 <body id="pn-top"><nav class="navbar navbar-inverse navbar-fixed-top"><div class="navbar-inner"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><span class="sr-only">Toggle navigation</span>
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
@@ -31,47 +31,48 @@ _paq.push(['enableLinkTracking']);
 <div class="jumbotron"><div class="container"><h1>Video Blog</h1></div></div>
 <div class="container"><div class="row"><div id="content" class="col-md-12"><article>
   <header>
-    <h1>Video v0.2 Releace Candidate</h1>
+    <h2><a href='/blog/2018/09/04/video-v0-2-released/'>Video v0.2 Released</a></h2>
     <p class='date-and-tags'>
-<time datetime="2018-06-10" pubdate="true">2018-06-10</time> :: <span class="tags"><a href="/blog/tags/release.html">release</a></span></p>
+<time datetime="2018-09-04" pubdate="true">2018-09-04</time> :: <span class="tags"><a href="/blog/tags/relase.html">relase</a></span></p>
     <p class='authors'>By: <span class="authors"><a href="/blog/tags/Author-Leif-Andersen.html">Leif Andersen</a></span></p>
   </header>
 
-<p><strong>Update:</strong> We have released a second release candidate. This fixes several bugs users have posted on the issue tracker.</p>
+<p>We just launched Video v0.2. This release marks the first stable version of Video for since v0.1.1 over a year ago. This release uses FFmpeg as a backend directly, rather than going through MLT. As such, Video is significantly more stable. Additionally, Windows and macOS users don&rsquo;t need to worry about installing any more third party libraries, as Video comes bundled with the versions of FFmpeg required to run.<sup>1</sup></p>
 
-<p>The first release candidate for Video v0.2 has been released! You can install it from the command line with:</p>
+<p>You can download the latest version of Video using the Racket archives, by running:</p>
 
-<pre><code>raco pkg install video-testing</code></pre>
+<pre><code>raco pkg install video</code></pre>
 
-<p>As before, the <code>video</code> Racket package points to the latest stable version (v0.1 when writing this post), so use <code>video-testing</code> to download the RC.</p>
+<p>or installing it in DrRacket. Alternatively, you can download a tarball <a href="https://github.com/videolang/video/releases/tag/v0.2">on Github</a>.</p>
 
-<p>You can report any bugs you find here: https://github.com/videolang/video/issues</p>
-
-<p>Here is a list of the major changes from the last beta:</p>
+<p>The following is a list of features since the last release candidate for Video. See previous blog posts or the <a href="https://github.com/videolang/video/blob/master/LOG">LOG file</a> for a full list.</p>
 
 <ul>
- <li>Update Video to use a version of libvid that does not segfault.</li>
- <li>More precise dependencies in Video&rsquo;s info file.</li>
- <li>If FF_LOG=stdout, then do no redirection of ffmpeg&rsquo;s logging.</li>
- <li>More complete render parameterization.</li>
- <li>Cleaner error messages.</li>
- <li>Fixed bug preventing Video from rendering audio-only files.</li>
+ <li>Complete rewrite of compiler (first two passes).</li>
+ <li>New compiler creates significantly more stable video programs.</li>
+ <li>Can now properly decode wav files</li>
+ <li>Remove explicit #:transitions/#:merges keywrods from playlists/filters.</li>
+ <li>Fixed bug preventing video from being compiled on systems without ffmpeg.</li>
+ <li>(Still requires ffmpeg to run.)</li>
+ <li>Improve video player stability.</li>
+ <li>Seek bar and counter much more reliable.</li>
+ <li>Disable some unstable features, to be enabled for the next release.</li>
+ <li>Minimum required version of Racket bumped to 7.0</li>
+ <li>Add a &mdash;prove flag to raco video to get information about media file.</li>
+ <li>When using the video player server, sound stops when the server is out of scope.</li>
+ <li>The video-player-server% object is now considerably easier to construct.</li>
+ <li>Add #:start/#:end/#:length as special keywords for clip function.</li>
+ <li>Improve pause responsiveness</li>
+ <li>Add <code>-m</code> flag to play media files without a video program</li>
+ <li>Fix bug where audio wouldn&rsquo;t play on windows</li>
  <li>Pause feature no longer additionally stops the video.</li>
  <li>Improved audio/video syncing in live preview.</li>
  <li>Fixed bugs in front half of Video compiler.</li>
  <li>Made &lsquo;canvas&rsquo; an optional parameter</li></ul>
-  <footer>
 
-    <ul class="pager">
-    <li class="previous">
-      <a href="/blog/2018/09/04/video-v0-2-released/">&larr; <em>Video v0.2 Released</em></a>
-    </li>
-    <li class="next">
-      <a href="/blog/2018/04/17/video-at-bob-2018/"><em>Video at BOB 2018</em> &rarr;</a>
-    </li>
-    </ul>
-    <div id="comments"></div>
-  </footer>
+<p>
+ <sub><sup>1</sup>Linux users will still need to install FFmpeg themselves. Video will work best with FFmpeg 3.x, but may also work with 2.7+ with mixed results.</sub></p>
+
 </article></div></div></div>
 <div class="footer-color"><div class="container"><footer class="footer float:right"><div class="copyright"><p style="float:left">Copyright © 2016-2018 Leif Andersen</p></div>
 <div class="pull-right"><img src="/logo/tiny.png" alt="Video Logo" height="25" width="25" /></div></footer></div></div><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script><script src="/js/bootstrap.min.js"></script></body></html>
