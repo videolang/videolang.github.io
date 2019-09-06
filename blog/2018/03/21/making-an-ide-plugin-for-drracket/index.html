@@ -70,12 +70,12 @@ _paq.push(['enableLinkTracking']);
 6</pre></div></td>
     <td class="code">
      <div class="source">
-      <pre><span class="kn">#lang racket/base</span> <span class="c1">;; clippy/main.rkt</span>
-<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/require.html#(form._((lib._racket/private/base..rkt)._provide))" style="color: inherit">provide</a> </span><span class="p">(</span><span class="nf"><a href="http://docs.racket-lang.org/reference/require.html#(form._((lib._racket/private/base..rkt)._all-from-out))" style="color: inherit">all-from-out</a></span> <span class="nv">racket/base</span><span class="p">))</span>
-<span class="p">(</span><span class="nf"><a href="http://docs.racket-lang.org/reference/module.html#(form._((quote._~23~25kernel)._module*))" style="color: inherit">module*</a></span> <span class="nv">reader</span> <span class="nv">syntax/module-reader</span>
-  <span class="nv">clippy</span>
-  <span class="kd">#:read</span> <span class="nv"><a href="http://docs.racket-lang.org/reference/Reading.html#(def._((quote._~23~25kernel)._read))" style="color: inherit">read</a></span>
-  <span class="kd">#:read-syntax</span> <span class="nv"><a href="http://docs.racket-lang.org/reference/Reading.html#(def._((quote._~23~25kernel)._read-syntax))" style="color: inherit">read-syntax</a></span><span class="p">)</span>
+      <pre><span class="kn">#lang </span><span class="nn">racket/base</span> <span class="c1">;; clippy/main.rkt</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/require.html#(form._((lib._racket/private/base..rkt)._provide))" style="color: inherit">provide</a></span> <span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/require.html#(form._((lib._racket/private/base..rkt)._all-from-out))" style="color: inherit">all-from-out</a></span> <span class="n">racket/base</span><span class="p">))</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/module.html#(form._((quote._~23~25kernel)._module*))" style="color: inherit">module*</a></span> <span class="n">reader</span> <span class="n">syntax/module-reader</span>
+  <span class="n">clippy</span>
+  <span class="kd">#:read</span> <span class="nb"><a href="http://docs.racket-lang.org/reference/Reading.html#(def._((quote._~23~25kernel)._read))" style="color: inherit">read</a></span>
+  <span class="kd">#:read-syntax</span> <span class="nb"><a href="http://docs.racket-lang.org/reference/Reading.html#(def._((quote._~23~25kernel)._read-syntax))" style="color: inherit">read-syntax</a></span><span class="p">)</span>
 </pre></div>
 </td></tr></tbody></table>
 </div>
@@ -120,16 +120,16 @@ $ raco pkg install</code></pre>
 11</pre></div></td>
     <td class="code">
      <div class="source">
-      <pre><span class="kn">#lang racket/gui</span> <span class="c1">;; clippy/button.rkt</span>
+      <pre><span class="kn">#lang </span><span class="nn">racket/gui</span> <span class="c1">;; clippy/button.rkt</span>
 
-<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/require.html#(form._((lib._racket/private/base..rkt)._provide))" style="color: inherit">provide</a> </span><span class="nv">clippy-button</span><span class="p">)</span>
-<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/require.html#(form._((lib._racket/private/base..rkt)._require))" style="color: inherit">require</a> </span><span class="nv">pict</span><span class="p">)</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/require.html#(form._((lib._racket/private/base..rkt)._provide))" style="color: inherit">provide</a></span> <span class="n">clippy-button</span><span class="p">)</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/require.html#(form._((lib._racket/private/base..rkt)._require))" style="color: inherit">require</a></span> <span class="n">pict</span><span class="p">)</span>
 
-<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a> </span><span class="nv">clippy-button</span>
-  <span class="p">(</span><span class="nb"><a href="http://docs.racket-lang.org/reference/pairs.html#(def._((quote._~23~25kernel)._list))" style="color: inherit">list</a> </span><span class="s">"Clippy"</span>
-        <span class="p">(</span><span class="nf">pict-&gt;bitmap</span> <span class="p">(</span><span class="nf">disk</span> <span class="mi">16</span><span class="p">))</span>
-        <span class="p">(</span><span class="err"><a href="http://docs.racket-lang.org/reference/lambda.html#(form._((lib._racket/private/base..rkt)._~ce~bb))" style="color: inherit">λ</a></span> <span class="p">(</span><span class="nf">frame</span><span class="p">)</span>
-          <span class="p">(</span><span class="nf">message-box</span> <span class="s">"Clippy"</span> <span class="s">"Howdy!"</span><span class="p">))</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a></span> <span class="n">clippy-button</span>
+  <span class="p">(</span><span class="nb"><a href="http://docs.racket-lang.org/reference/pairs.html#(def._((quote._~23~25kernel)._list))" style="color: inherit">list</a></span> <span class="s2">"Clippy"</span>
+        <span class="p">(</span><span class="n">pict-&gt;bitmap</span> <span class="p">(</span><span class="n">disk</span> <span class="mi">16</span><span class="p">))</span>
+        <span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/lambda.html#(form._((lib._racket/private/base..rkt)._~ce~bb))" style="color: inherit">λ</a></span> <span class="p">(</span><span class="n">frame</span><span class="p">)</span>
+          <span class="p">(</span><span class="n">message-box</span> <span class="s2">"Clippy"</span> <span class="s2">"Howdy!"</span><span class="p">))</span>
         <span class="no">#f</span><span class="p">))</span>
 </pre></div>
 </td></tr></tbody></table>
@@ -150,11 +150,11 @@ $ raco pkg install</code></pre>
 5</pre></div></td>
     <td class="code">
      <div class="source">
-      <pre><span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a> </span><span class="p">(</span><span class="nf">make-info</span> <span class="nv">key</span> <span class="nv">default</span> <span class="nv">use-default</span><span class="p">)</span>
-  <span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/case.html#(form._((lib._racket/private/more-scheme..rkt)._case))" style="color: inherit">case</a> </span><span class="nv">key</span>
-    <span class="p">[(</span><span class="nf">drracket:toolbar-buttons</span><span class="p">)</span>
-     <span class="p">(</span><span class="nb"><a href="http://docs.racket-lang.org/reference/pairs.html#(def._((quote._~23~25kernel)._list))" style="color: inherit">list</a> </span><span class="p">(</span><span class="nb"><a href="http://docs.racket-lang.org/reference/Module_Names_and_Loading.html#(def._((quote._~23~25kernel)._dynamic-require))" style="color: inherit">dynamic-require</a> </span><span class="ss">'clippy/button</span> <span class="ss">'clippy-button</span><span class="p">))]</span>
-    <span class="p">[</span><span class="nf"><a href="http://docs.racket-lang.org/reference/if.html#(form._((lib._racket/private/letstx-scheme..rkt)._else))" style="color: inherit">else</a></span> <span class="p">(</span><span class="nf">use-default</span> <span class="nv">key</span> <span class="nv">default</span><span class="p">)]))</span>
+      <pre><span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a></span> <span class="p">(</span><span class="n">make-info</span> <span class="n">key</span> <span class="n">default</span> <span class="n">use-default</span><span class="p">)</span>
+  <span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/case.html#(form._((lib._racket/private/more-scheme..rkt)._case))" style="color: inherit">case</a></span> <span class="n">key</span>
+    <span class="p">[(</span><span class="n">drracket:toolbar-buttons</span><span class="p">)</span>
+     <span class="p">(</span><span class="nb"><a href="http://docs.racket-lang.org/reference/pairs.html#(def._((quote._~23~25kernel)._list))" style="color: inherit">list</a></span> <span class="p">(</span><span class="nb"><a href="http://docs.racket-lang.org/reference/Module_Names_and_Loading.html#(def._((quote._~23~25kernel)._dynamic-require))" style="color: inherit">dynamic-require</a></span> <span class="o">'</span><span class="ss">clippy/button</span> <span class="o">'</span><span class="ss">clippy-button</span><span class="p">))]</span>
+    <span class="p">[</span><span class="k"><a href="http://docs.racket-lang.org/reference/if.html#(form._((lib._racket/private/letstx-scheme..rkt)._else))" style="color: inherit">else</a></span> <span class="p">(</span><span class="n">use-default</span> <span class="n">key</span> <span class="n">default</span><span class="p">)]))</span>
 </pre></div>
 </td></tr></tbody></table>
 </div>
@@ -184,19 +184,19 @@ $ raco pkg install</code></pre>
 13</pre></div></td>
     <td class="code">
      <div class="source">
-      <pre><span class="kn">#lang racket/base</span> <span class="c1">;; clippy/main.rkt</span>
-<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/require.html#(form._((lib._racket/private/base..rkt)._provide))" style="color: inherit">provide</a> </span><span class="p">(</span><span class="nf"><a href="http://docs.racket-lang.org/reference/require.html#(form._((lib._racket/private/base..rkt)._all-from-out))" style="color: inherit">all-from-out</a></span> <span class="nv">racket/base</span><span class="p">))</span>
-<span class="p">(</span><span class="nf"><a href="http://docs.racket-lang.org/reference/module.html#(form._((quote._~23~25kernel)._module*))" style="color: inherit">module*</a></span> <span class="nv">reader</span> <span class="nv">syntax/module-reader</span>
-  <span class="nv">clippy</span>
-  <span class="kd">#:read</span> <span class="nv"><a href="http://docs.racket-lang.org/reference/Reading.html#(def._((quote._~23~25kernel)._read))" style="color: inherit">read</a></span>
-  <span class="kd">#:read-syntax</span> <span class="nv"><a href="http://docs.racket-lang.org/reference/Reading.html#(def._((quote._~23~25kernel)._read-syntax))" style="color: inherit">read-syntax</a></span>
-  <span class="kd">#:info</span> <span class="nv">make-info</span>
+      <pre><span class="kn">#lang </span><span class="nn">racket/base</span> <span class="c1">;; clippy/main.rkt</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/require.html#(form._((lib._racket/private/base..rkt)._provide))" style="color: inherit">provide</a></span> <span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/require.html#(form._((lib._racket/private/base..rkt)._all-from-out))" style="color: inherit">all-from-out</a></span> <span class="n">racket/base</span><span class="p">))</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/module.html#(form._((quote._~23~25kernel)._module*))" style="color: inherit">module*</a></span> <span class="n">reader</span> <span class="n">syntax/module-reader</span>
+  <span class="n">clippy</span>
+  <span class="kd">#:read</span> <span class="nb"><a href="http://docs.racket-lang.org/reference/Reading.html#(def._((quote._~23~25kernel)._read))" style="color: inherit">read</a></span>
+  <span class="kd">#:read-syntax</span> <span class="nb"><a href="http://docs.racket-lang.org/reference/Reading.html#(def._((quote._~23~25kernel)._read-syntax))" style="color: inherit">read-syntax</a></span>
+  <span class="kd">#:info</span> <span class="n">make-info</span>
 
-  <span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a> </span><span class="p">(</span><span class="nf">make-info</span> <span class="nv">key</span> <span class="nv">default</span> <span class="nv">use-default</span><span class="p">)</span>
-  <span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/case.html#(form._((lib._racket/private/more-scheme..rkt)._case))" style="color: inherit">case</a> </span><span class="nv">key</span>
-    <span class="p">[(</span><span class="nf">drracket:toolbar-buttons</span><span class="p">)</span>
-     <span class="p">(</span><span class="nb"><a href="http://docs.racket-lang.org/reference/pairs.html#(def._((quote._~23~25kernel)._list))" style="color: inherit">list</a> </span><span class="p">(</span><span class="nb"><a href="http://docs.racket-lang.org/reference/Module_Names_and_Loading.html#(def._((quote._~23~25kernel)._dynamic-require))" style="color: inherit">dynamic-require</a> </span><span class="ss">'clippy/button</span> <span class="ss">'clippy-button</span><span class="p">))]</span>
-    <span class="p">[</span><span class="nf"><a href="http://docs.racket-lang.org/reference/if.html#(form._((lib._racket/private/letstx-scheme..rkt)._else))" style="color: inherit">else</a></span> <span class="p">(</span><span class="nf">use-default</span> <span class="nv">key</span> <span class="nv">default</span><span class="p">)])))</span>
+  <span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a></span> <span class="p">(</span><span class="n">make-info</span> <span class="n">key</span> <span class="n">default</span> <span class="n">use-default</span><span class="p">)</span>
+  <span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/case.html#(form._((lib._racket/private/more-scheme..rkt)._case))" style="color: inherit">case</a></span> <span class="n">key</span>
+    <span class="p">[(</span><span class="n">drracket:toolbar-buttons</span><span class="p">)</span>
+     <span class="p">(</span><span class="nb"><a href="http://docs.racket-lang.org/reference/pairs.html#(def._((quote._~23~25kernel)._list))" style="color: inherit">list</a></span> <span class="p">(</span><span class="nb"><a href="http://docs.racket-lang.org/reference/Module_Names_and_Loading.html#(def._((quote._~23~25kernel)._dynamic-require))" style="color: inherit">dynamic-require</a></span> <span class="o">'</span><span class="ss">clippy/button</span> <span class="o">'</span><span class="ss">clippy-button</span><span class="p">))]</span>
+    <span class="p">[</span><span class="k"><a href="http://docs.racket-lang.org/reference/if.html#(form._((lib._racket/private/letstx-scheme..rkt)._else))" style="color: inherit">else</a></span> <span class="p">(</span><span class="n">use-default</span> <span class="n">key</span> <span class="n">default</span><span class="p">)])))</span>
 </pre></div>
 </td></tr></tbody></table>
 </div>
@@ -221,12 +221,12 @@ $ raco pkg install</code></pre>
 6</pre></div></td>
     <td class="code">
      <div class="source">
-      <pre><span class="kn">#lang info</span> <span class="c1">;; clippy/info.rkt</span>
-<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a> </span><span class="nv">collection</span> <span class="s">"clippy"</span><span class="p">)</span>
+      <pre><span class="kn">#lang </span><span class="nn">info</span> <span class="c1">;; clippy/info.rkt</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a></span> <span class="n">collection</span> <span class="s2">"clippy"</span><span class="p">)</span>
 
-<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a> </span><span class="nv">drracket-tools</span> <span class="o">'</span><span class="p">((</span><span class="s">"tool.rkt"</span><span class="p">)))</span>
-<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a> </span><span class="nv">drracket-tool-names</span> <span class="o">'</span><span class="p">(</span><span class="s">"Clippy"</span><span class="p">))</span>
-<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a> </span><span class="nv">drracket-tool-icons</span> <span class="o">'</span><span class="p">(</span><span class="no">#f</span><span class="p">))</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a></span> <span class="n">drracket-tools</span> <span class="o">'</span><span class="p">((</span><span class="s2">"tool.rkt"</span><span class="p">)))</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a></span> <span class="n">drracket-tool-names</span> <span class="o">'</span><span class="p">(</span><span class="s2">"Clippy"</span><span class="p">))</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a></span> <span class="n">drracket-tool-icons</span> <span class="o">'</span><span class="p">(</span><span class="no">#f</span><span class="p">))</span>
 </pre></div>
 </td></tr></tbody></table>
 </div>
@@ -251,16 +251,16 @@ $ raco pkg install</code></pre>
 10</pre></div></td>
     <td class="code">
      <div class="source">
-      <pre><span class="kn">#lang racket/unit</span> <span class="c1">;; clippy/tool.rkt</span>
+      <pre><span class="kn">#lang </span><span class="nn">racket/unit</span> <span class="c1">;; clippy/tool.rkt</span>
 
-<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/require.html#(form._((lib._racket/private/base..rkt)._require))" style="color: inherit">require</a> </span><span class="nv">drracket/tool</span>
-         <span class="o"><a href="http://docs.racket-lang.org/reference/stx-patterns.html#(form._((lib._racket/private/stxcase-scheme..rkt)._......))" style="color: inherit">...</a></span> <span class="nv">other</span> <span class="k"><a href="http://docs.racket-lang.org/reference/require.html#(form._((lib._racket/private/base..rkt)._require))" style="color: inherit">require</a> </span><span class="nv">forms</span> <span class="o"><a href="http://docs.racket-lang.org/reference/stx-patterns.html#(form._((lib._racket/private/stxcase-scheme..rkt)._......))" style="color: inherit">...</a></span><span class="p">)</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/require.html#(form._((lib._racket/private/base..rkt)._require))" style="color: inherit">require</a></span> <span class="n">drracket/tool</span>
+         <span class="k"><a href="http://docs.racket-lang.org/reference/stx-patterns.html#(form._((lib._racket/private/stxcase-scheme..rkt)._......))" style="color: inherit">...</a></span> <span class="n">other</span> <span class="k"><a href="http://docs.racket-lang.org/reference/require.html#(form._((lib._racket/private/base..rkt)._require))" style="color: inherit">require</a></span> <span class="n">forms</span> <span class="k"><a href="http://docs.racket-lang.org/reference/stx-patterns.html#(form._((lib._racket/private/stxcase-scheme..rkt)._......))" style="color: inherit">...</a></span><span class="p">)</span>
 
-<span class="p">(</span><span class="nf"><a href="http://docs.racket-lang.org/reference/creatingunits.html#(form._((lib._racket/unit..rkt)._import))" style="color: inherit">import</a></span> <span class="nv">drracket:tool^</span><span class="p">)</span>
-<span class="p">(</span><span class="nf"><a href="http://docs.racket-lang.org/reference/creatingunits.html#(form._((lib._racket/unit..rkt)._export))" style="color: inherit">export</a></span> <span class="nv">drracket:tool-exports^</span><span class="p">)</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/creatingunits.html#(form._((lib._racket/unit..rkt)._import))" style="color: inherit">import</a></span> <span class="n">drracket:tool^</span><span class="p">)</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/creatingunits.html#(form._((lib._racket/unit..rkt)._export))" style="color: inherit">export</a></span> <span class="n">drracket:tool-exports^</span><span class="p">)</span>
 
-<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a> </span><span class="p">(</span><span class="nf">phase1</span><span class="p">)</span> <span class="p">(</span><span class="nf"><a href="http://docs.racket-lang.org/reference/void.html#(def._((quote._~23~25kernel)._void))" style="color: inherit">void</a></span><span class="p">))</span>
-<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a> </span><span class="p">(</span><span class="nf">phase2</span><span class="p">)</span> <span class="p">(</span><span class="nf"><a href="http://docs.racket-lang.org/reference/void.html#(def._((quote._~23~25kernel)._void))" style="color: inherit">void</a></span><span class="p">))</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a></span> <span class="p">(</span><span class="n">phase1</span><span class="p">)</span> <span class="p">(</span><span class="nb"><a href="http://docs.racket-lang.org/reference/void.html#(def._((quote._~23~25kernel)._void))" style="color: inherit">void</a></span><span class="p">))</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a></span> <span class="p">(</span><span class="n">phase2</span><span class="p">)</span> <span class="p">(</span><span class="nb"><a href="http://docs.racket-lang.org/reference/void.html#(def._((quote._~23~25kernel)._void))" style="color: inherit">void</a></span><span class="p">))</span>
 </pre></div>
 </td></tr></tbody></table>
 </div>
@@ -279,10 +279,10 @@ $ raco pkg install</code></pre>
 4</pre></div></td>
     <td class="code">
      <div class="source">
-      <pre><span class="kn">#lang racket/unit</span> <span class="c1">;; clippy/tool.rkt</span>
+      <pre><span class="kn">#lang </span><span class="nn">racket/unit</span> <span class="c1">;; clippy/tool.rkt</span>
 
-<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/require.html#(form._((lib._racket/private/base..rkt)._require))" style="color: inherit">require</a> </span><span class="nv">drracket/tool</span>
-         <span class="o"><a href="http://docs.racket-lang.org/reference/stx-patterns.html#(form._((lib._racket/private/stxcase-scheme..rkt)._......))" style="color: inherit">...</a></span> <span class="nv">other</span> <span class="k"><a href="http://docs.racket-lang.org/reference/require.html#(form._((lib._racket/private/base..rkt)._require))" style="color: inherit">require</a> </span><span class="nv">forms</span> <span class="o"><a href="http://docs.racket-lang.org/reference/stx-patterns.html#(form._((lib._racket/private/stxcase-scheme..rkt)._......))" style="color: inherit">...</a></span><span class="p">)</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/require.html#(form._((lib._racket/private/base..rkt)._require))" style="color: inherit">require</a></span> <span class="n">drracket/tool</span>
+         <span class="k"><a href="http://docs.racket-lang.org/reference/stx-patterns.html#(form._((lib._racket/private/stxcase-scheme..rkt)._......))" style="color: inherit">...</a></span> <span class="n">other</span> <span class="k"><a href="http://docs.racket-lang.org/reference/require.html#(form._((lib._racket/private/base..rkt)._require))" style="color: inherit">require</a></span> <span class="n">forms</span> <span class="k"><a href="http://docs.racket-lang.org/reference/stx-patterns.html#(form._((lib._racket/private/stxcase-scheme..rkt)._......))" style="color: inherit">...</a></span><span class="p">)</span>
 </pre></div>
 </td></tr></tbody></table>
 </div>
@@ -299,8 +299,8 @@ $ raco pkg install</code></pre>
 2</pre></div></td>
     <td class="code">
      <div class="source">
-      <pre><span class="p">(</span><span class="nf"><a href="http://docs.racket-lang.org/reference/creatingunits.html#(form._((lib._racket/unit..rkt)._import))" style="color: inherit">import</a></span> <span class="nv">drracket:tool^</span><span class="p">)</span>
-<span class="p">(</span><span class="nf"><a href="http://docs.racket-lang.org/reference/creatingunits.html#(form._((lib._racket/unit..rkt)._export))" style="color: inherit">export</a></span> <span class="nv">drracket:tool-exports^</span><span class="p">)</span>
+      <pre><span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/creatingunits.html#(form._((lib._racket/unit..rkt)._import))" style="color: inherit">import</a></span> <span class="n">drracket:tool^</span><span class="p">)</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/creatingunits.html#(form._((lib._racket/unit..rkt)._export))" style="color: inherit">export</a></span> <span class="n">drracket:tool-exports^</span><span class="p">)</span>
 </pre></div>
 </td></tr></tbody></table>
 </div>
@@ -317,8 +317,8 @@ $ raco pkg install</code></pre>
 2</pre></div></td>
     <td class="code">
      <div class="source">
-      <pre><span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a> </span><span class="p">(</span><span class="nf">phase1</span><span class="p">)</span> <span class="p">(</span><span class="nf"><a href="http://docs.racket-lang.org/reference/void.html#(def._((quote._~23~25kernel)._void))" style="color: inherit">void</a></span><span class="p">))</span>
-<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a> </span><span class="p">(</span><span class="nf">phase2</span><span class="p">)</span> <span class="p">(</span><span class="nf"><a href="http://docs.racket-lang.org/reference/void.html#(def._((quote._~23~25kernel)._void))" style="color: inherit">void</a></span><span class="p">))</span>
+      <pre><span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a></span> <span class="p">(</span><span class="n">phase1</span><span class="p">)</span> <span class="p">(</span><span class="nb"><a href="http://docs.racket-lang.org/reference/void.html#(def._((quote._~23~25kernel)._void))" style="color: inherit">void</a></span><span class="p">))</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a></span> <span class="p">(</span><span class="n">phase2</span><span class="p">)</span> <span class="p">(</span><span class="nb"><a href="http://docs.racket-lang.org/reference/void.html#(def._((quote._~23~25kernel)._void))" style="color: inherit">void</a></span><span class="p">))</span>
 </pre></div>
 </td></tr></tbody></table>
 </div>
@@ -336,7 +336,7 @@ $ raco pkg install</code></pre>
       <pre>1</pre></div></td>
     <td class="code">
      <div class="source">
-      <pre><span class="p">(</span><span class="nf">drracket:get/extend:extend-unit-frame</span> <span class="nv">clippy-frame-mixin</span><span class="p">)</span>
+      <pre><span class="p">(</span><span class="n">drracket:get/extend:extend-unit-frame</span> <span class="n">clippy-frame-mixin</span><span class="p">)</span>
 </pre></div>
 </td></tr></tbody></table>
 </div>
@@ -361,16 +361,16 @@ $ raco pkg install</code></pre>
 10</pre></div></td>
     <td class="code">
      <div class="source">
-      <pre><span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a> </span><span class="nv">clippy-frame-mixin</span>
-  <span class="p">(</span><span class="nf"><a href="http://docs.racket-lang.org/reference/mixins.html#(form._((lib._racket/private/class-internal..rkt)._mixin))" style="color: inherit">mixin</a></span> <span class="p">(</span><span class="nf">drracket:unit:frame&lt;%&gt;</span><span class="p">)</span> <span class="p">()</span>
-    <span class="p">(</span><span class="nf"><a href="http://docs.racket-lang.org/reference/objcreation.html#(form._((lib._racket/private/class-internal..rkt)._super-new))" style="color: inherit">super-new</a></span><span class="p">)</span>
-    <span class="p">(</span><span class="nf"><a href="http://docs.racket-lang.org/reference/createclass.html#(form._((lib._racket/private/class-internal..rkt)._inherit))" style="color: inherit">inherit</a></span> <span class="nv">get-insert-menu</span><span class="p">)</span>
-    <span class="p">(</span><span class="nf"><a href="http://docs.racket-lang.org/reference/objcreation.html#(form._((lib._racket/private/class-internal..rkt)._new))" style="color: inherit">new</a></span> <span class="nv">menu-item%</span>
-         <span class="p">[</span><span class="nf">parent</span> <span class="p">(</span><span class="nf">get-insert-menu</span><span class="p">)]</span>
-         <span class="p">[</span><span class="nf">label</span> <span class="s">"Paperclip Help"</span><span class="p">]</span>
-         <span class="p">[</span><span class="nf">callback</span>
-          <span class="p">(</span><span class="err"><a href="http://docs.racket-lang.org/reference/lambda.html#(form._((lib._racket/private/base..rkt)._~ce~bb))" style="color: inherit">λ</a></span> <span class="p">(</span><span class="nf">i</span> <span class="nv">e</span><span class="p">)</span>
-            <span class="p">(</span><span class="nf">message-box</span> <span class="s">"Clippy"</span> <span class="s">"Howdy!"</span><span class="p">))])))</span>
+      <pre><span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a></span> <span class="n">clippy-frame-mixin</span>
+  <span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/mixins.html#(form._((lib._racket/private/class-internal..rkt)._mixin))" style="color: inherit">mixin</a></span> <span class="p">(</span><span class="n">drracket:unit:frame&lt;%&gt;</span><span class="p">)</span> <span class="p">()</span>
+    <span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/objcreation.html#(form._((lib._racket/private/class-internal..rkt)._super-new))" style="color: inherit">super-new</a></span><span class="p">)</span>
+    <span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/createclass.html#(form._((lib._racket/private/class-internal..rkt)._inherit))" style="color: inherit">inherit</a></span> <span class="n">get-insert-menu</span><span class="p">)</span>
+    <span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/objcreation.html#(form._((lib._racket/private/class-internal..rkt)._new))" style="color: inherit">new</a></span> <span class="n">menu-item%</span>
+         <span class="p">[</span><span class="n">parent</span> <span class="p">(</span><span class="n">get-insert-menu</span><span class="p">)]</span>
+         <span class="p">[</span><span class="n">label</span> <span class="s2">"Paperclip Help"</span><span class="p">]</span>
+         <span class="p">[</span><span class="n">callback</span>
+          <span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/lambda.html#(form._((lib._racket/private/base..rkt)._~ce~bb))" style="color: inherit">λ</a></span> <span class="p">(</span><span class="n">i</span> <span class="n">e</span><span class="p">)</span>
+            <span class="p">(</span><span class="n">message-box</span> <span class="s2">"Clippy"</span> <span class="s2">"Howdy!"</span><span class="p">))])))</span>
 </pre></div>
 </td></tr></tbody></table>
 </div>
@@ -411,30 +411,30 @@ $ raco pkg install</code></pre>
 24</pre></div></td>
     <td class="code">
      <div class="source">
-      <pre><span class="kn">#lang racket/unit</span> <span class="c1">;; clippy/tool.rkt</span>
+      <pre><span class="kn">#lang </span><span class="nn">racket/unit</span> <span class="c1">;; clippy/tool.rkt</span>
 
-<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/require.html#(form._((lib._racket/private/base..rkt)._require))" style="color: inherit">require</a> </span><span class="nv">drracket/tool</span>
-         <span class="nv">racket/class</span>
-         <span class="nv">racket/gui/base</span><span class="p">)</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/require.html#(form._((lib._racket/private/base..rkt)._require))" style="color: inherit">require</a></span> <span class="n">drracket/tool</span>
+         <span class="n">racket/class</span>
+         <span class="n">racket/gui/base</span><span class="p">)</span>
 
-<span class="p">(</span><span class="nf"><a href="http://docs.racket-lang.org/reference/creatingunits.html#(form._((lib._racket/unit..rkt)._import))" style="color: inherit">import</a></span> <span class="nv">drracket:tool^</span><span class="p">)</span>
-<span class="p">(</span><span class="nf"><a href="http://docs.racket-lang.org/reference/creatingunits.html#(form._((lib._racket/unit..rkt)._export))" style="color: inherit">export</a></span> <span class="nv">drracket:tool-exports^</span><span class="p">)</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/creatingunits.html#(form._((lib._racket/unit..rkt)._import))" style="color: inherit">import</a></span> <span class="n">drracket:tool^</span><span class="p">)</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/creatingunits.html#(form._((lib._racket/unit..rkt)._export))" style="color: inherit">export</a></span> <span class="n">drracket:tool-exports^</span><span class="p">)</span>
 
-<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a> </span><span class="p">(</span><span class="nf">phase1</span><span class="p">)</span> <span class="p">(</span><span class="nf"><a href="http://docs.racket-lang.org/reference/void.html#(def._((quote._~23~25kernel)._void))" style="color: inherit">void</a></span><span class="p">))</span>
-<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a> </span><span class="p">(</span><span class="nf">phase2</span><span class="p">)</span> <span class="p">(</span><span class="nf"><a href="http://docs.racket-lang.org/reference/void.html#(def._((quote._~23~25kernel)._void))" style="color: inherit">void</a></span><span class="p">))</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a></span> <span class="p">(</span><span class="n">phase1</span><span class="p">)</span> <span class="p">(</span><span class="nb"><a href="http://docs.racket-lang.org/reference/void.html#(def._((quote._~23~25kernel)._void))" style="color: inherit">void</a></span><span class="p">))</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a></span> <span class="p">(</span><span class="n">phase2</span><span class="p">)</span> <span class="p">(</span><span class="nb"><a href="http://docs.racket-lang.org/reference/void.html#(def._((quote._~23~25kernel)._void))" style="color: inherit">void</a></span><span class="p">))</span>
 
-<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a> </span><span class="nv">clippy-frame-mixin</span>
-  <span class="p">(</span><span class="nf"><a href="http://docs.racket-lang.org/reference/mixins.html#(form._((lib._racket/private/class-internal..rkt)._mixin))" style="color: inherit">mixin</a></span> <span class="p">(</span><span class="nf">drracket:unit:frame&lt;%&gt;</span><span class="p">)</span> <span class="p">()</span>
-    <span class="p">(</span><span class="nf"><a href="http://docs.racket-lang.org/reference/objcreation.html#(form._((lib._racket/private/class-internal..rkt)._super-new))" style="color: inherit">super-new</a></span><span class="p">)</span>
-    <span class="p">(</span><span class="nf"><a href="http://docs.racket-lang.org/reference/createclass.html#(form._((lib._racket/private/class-internal..rkt)._inherit))" style="color: inherit">inherit</a></span> <span class="nv">get-insert-menu</span><span class="p">)</span>
-    <span class="p">(</span><span class="nf"><a href="http://docs.racket-lang.org/reference/objcreation.html#(form._((lib._racket/private/class-internal..rkt)._new))" style="color: inherit">new</a></span> <span class="nv">menu-item%</span>
-         <span class="p">[</span><span class="nf">parent</span> <span class="p">(</span><span class="nf">get-insert-menu</span><span class="p">)]</span>
-         <span class="p">[</span><span class="nf">label</span> <span class="s">"Paperclip Help"</span><span class="p">]</span>
-         <span class="p">[</span><span class="nf">callback</span>
-          <span class="p">(</span><span class="err"><a href="http://docs.racket-lang.org/reference/lambda.html#(form._((lib._racket/private/base..rkt)._~ce~bb))" style="color: inherit">λ</a></span> <span class="p">(</span><span class="nf">i</span> <span class="nv">e</span><span class="p">)</span>
-            <span class="p">(</span><span class="nf">message-box</span> <span class="s">"Clippy"</span> <span class="s">"Need <a href="http://docs.racket-lang.org/reference/data-structure-contracts.html#(form._((lib._racket/contract/private/misc..rkt)._any))" style="color: inherit">any</a> help?"</span><span class="p">))])))</span>
+<span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/define.html#(form._((lib._racket/private/base..rkt)._define))" style="color: inherit">define</a></span> <span class="n">clippy-frame-mixin</span>
+  <span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/mixins.html#(form._((lib._racket/private/class-internal..rkt)._mixin))" style="color: inherit">mixin</a></span> <span class="p">(</span><span class="n">drracket:unit:frame&lt;%&gt;</span><span class="p">)</span> <span class="p">()</span>
+    <span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/objcreation.html#(form._((lib._racket/private/class-internal..rkt)._super-new))" style="color: inherit">super-new</a></span><span class="p">)</span>
+    <span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/createclass.html#(form._((lib._racket/private/class-internal..rkt)._inherit))" style="color: inherit">inherit</a></span> <span class="n">get-insert-menu</span><span class="p">)</span>
+    <span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/objcreation.html#(form._((lib._racket/private/class-internal..rkt)._new))" style="color: inherit">new</a></span> <span class="n">menu-item%</span>
+         <span class="p">[</span><span class="n">parent</span> <span class="p">(</span><span class="n">get-insert-menu</span><span class="p">)]</span>
+         <span class="p">[</span><span class="n">label</span> <span class="s2">"Paperclip Help"</span><span class="p">]</span>
+         <span class="p">[</span><span class="n">callback</span>
+          <span class="p">(</span><span class="k"><a href="http://docs.racket-lang.org/reference/lambda.html#(form._((lib._racket/private/base..rkt)._~ce~bb))" style="color: inherit">λ</a></span> <span class="p">(</span><span class="n">i</span> <span class="n">e</span><span class="p">)</span>
+            <span class="p">(</span><span class="n">message-box</span> <span class="s2">"Clippy"</span> <span class="s2">"Need <a href="http://docs.racket-lang.org/reference/data-structure-contracts.html#(form._((lib._racket/contract/private/misc..rkt)._any))" style="color: inherit">any</a> help?"</span><span class="p">))])))</span>
 
-<span class="p">(</span><span class="nf">drracket:get/extend:extend-unit-frame</span> <span class="nv">clippy-frame-mixin</span><span class="p">)</span>
+<span class="p">(</span><span class="n">drracket:get/extend:extend-unit-frame</span> <span class="n">clippy-frame-mixin</span><span class="p">)</span>
 </pre></div>
 </td></tr></tbody></table>
 </div>
